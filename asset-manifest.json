@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Click2Dep/static/css/main.fcdf3737.css",
-    "main.js": "/Click2Dep/static/js/main.24f76601.js",
+    "main.css": "/Click2Dep/static/css/main.72899815.css",
+    "main.js": "/Click2Dep/static/js/main.cd2da4bc.js",
+    "static/media/mesh-1430107.png": "/Click2Dep/static/media/mesh-1430107.1071b64b08010b0e6962.png",
     "index.html": "/Click2Dep/index.html",
-    "main.fcdf3737.css.map": "/Click2Dep/static/css/main.fcdf3737.css.map",
-    "main.24f76601.js.map": "/Click2Dep/static/js/main.24f76601.js.map"
+    "main.72899815.css.map": "/Click2Dep/static/css/main.72899815.css.map",
+    "main.cd2da4bc.js.map": "/Click2Dep/static/js/main.cd2da4bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcdf3737.css",
-    "static/js/main.24f76601.js"
+    "static/css/main.72899815.css",
+    "static/js/main.cd2da4bc.js"
   ]
 }
