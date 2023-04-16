@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Click2Dep/static/css/main.fcdf3737.css",
+    "main.js": "/Click2Dep/static/js/main.24f76601.js",
+    "index.html": "/Click2Dep/index.html",
+    "main.fcdf3737.css.map": "/Click2Dep/static/css/main.fcdf3737.css.map",
+    "main.24f76601.js.map": "/Click2Dep/static/js/main.24f76601.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcdf3737.css",
+    "static/js/main.24f76601.js"
+  ]
+}
