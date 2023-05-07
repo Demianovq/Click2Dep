@@ -6,7 +6,7 @@ export const StyledLink = styled(NavLink)`
   color: #dce0e1;
   position: relative;
   display: block;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
   margin: 30px 0;
 
@@ -16,7 +16,7 @@ export const StyledLink = styled(NavLink)`
   transition: 1s all ease;
 
   &::before {
-    background: linear-gradient(to left, #553c9a, #b393d3);
+    background: linear-gradient(to left, #004691, #1d1d37);
     content: '';
     position: absolute;
     top: 50%;

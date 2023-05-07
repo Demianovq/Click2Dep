@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import Image from 'images/mesh-1430107.png';
+import Image from 'images/hero-min.svg';
 
 export const HeroTitle = styled('h1')`
   font-weight: 900;
@@ -11,19 +11,19 @@ export const HeroTitle = styled('h1')`
   display: block;
   width: 696px;
   font-family: 'Morganite';
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
   display: block;
   text-shadow: 2px 2px 3px black;
-
   margin-left: auto;
   margin-right: auto;
 `;
 
 export const HeroSection = styled('section')`
   padding-top: 300px;
-  padding-bottom: 300px;
+  padding-bottom: 100px;
+  padding-left: 0;
+
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -31,9 +31,11 @@ export const HeroSection = styled('section')`
     url(${Image});
   background-repeat: no-repeat;
   background-size: cover;
+  width: auto;
+  height: auto;
 
-  /* background-image: linear-gradient(to left, #553c9a, #b393d3); */
-  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 export const HeroBtn = styled('button')`
@@ -60,7 +62,6 @@ export const StyledHeroLink = styled(NavLink)`
 
   cursor: pointer;
 
-  /* background-image: linear-gradient(to left, #553c9a, #b393d3); */
   background-color: black;
   color: #fff;
 
@@ -98,4 +99,82 @@ export const StyledHeroLink = styled(NavLink)`
     width: 100%;
     transition: 800ms ease all;
   }
+`;
+
+export const ScrollMouse = styled('div')`
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-top: 120px;
+
+  width: 30px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  &:after,
+  &:before {
+    content: '';
+    position: absolute;
+
+    top: 10%;
+    left: 45%;
+    height: 20px;
+
+    border: 3px solid #004691;
+    -webkit-transform: translate (-50%, -100%) rotate(45deg);
+    -moz-transform: translate(-50%, -100%) rotate(45deg);
+    -ms-transform: translate(-50%, -100%) rotate(45deg);
+    -o-transform: translate(-50%, -100%) rotate(45deg);
+    transform: translate (-50%, -100%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scrollDown 2s ease infinite;
+    &:after {
+      top: 0%;
+      animation-delay: 0.4s;
+    }
+    @keyframes scrollDown {
+      0% {
+        opacity: 0;
+      }
+      30% {
+        opacity: 1;
+      }
+      60% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        top: 50%;
+      }
+    }
+  }
+`;
+
+export const ScrollText = styled('p')`
+  display: block;
+  text-align: center;
+  margin-top: 180px;
+  font-size: 20px;
+  line-height: calc(60 / 44);
+`;
+
+export const AboutSection = styled('section')`
+  padding-top: 50px;
+  padding-bottom: 200px;
+  background-color: white;
+  color: black;
+`;
+
+export const AdvantagesSection = styled('section')`
+  padding-top: 50px;
+  padding-bottom: 200px;
+  background-color: black;
+  color: white;
+  position: relative;
 `;
