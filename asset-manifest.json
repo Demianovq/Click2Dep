@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/Click2Dep/static/css/main.72899815.css",
-    "main.js": "/Click2Dep/static/js/main.cd2da4bc.js",
-    "static/media/mesh-1430107.png": "/Click2Dep/static/media/mesh-1430107.1071b64b08010b0e6962.png",
+    "main.css": "/Click2Dep/static/css/main.3784511d.css",
+    "main.js": "/Click2Dep/static/js/main.1d4864dc.js",
+    "static/media/hero-min.svg": "/Click2Dep/static/media/hero-min.520bfc33115d8db7b3016e97f7d3322a.svg",
+    "static/media/About2-min.svg": "/Click2Dep/static/media/About2-min.bde28e2691efdfe18894b1bb8c43d58a.svg",
+    "static/media/About-min.svg": "/Click2Dep/static/media/About-min.2f8fd64cda1a8b82b51a9a6bcae9d61a.svg",
+    "static/media/Support-min.svg": "/Click2Dep/static/media/Support-min.47a399a5ba20a20c3a880291c7e5a51d.svg",
+    "static/media/Loyalty Program-min.svg": "/Click2Dep/static/media/Loyalty Program-min.d19b93c71a2265d63c4d36ec4ad16d4b.svg",
+    "static/media/Minimal Hold-min.svg": "/Click2Dep/static/media/Minimal Hold-min.d4aa54a0ffeb219a9f17cc4b4548ad9c.svg",
+    "static/media/Exclusive Offers-min.svg": "/Click2Dep/static/media/Exclusive Offers-min.4bcceaf4e4f732d26a6eb3a57dee6158.svg",
+    "static/media/Many niches-min.svg": "/Click2Dep/static/media/Many niches-min.29e02f3af392c1db5985ade62acf0b45.svg",
+    "static/media/Fast Payouts-min.svg": "/Click2Dep/static/media/Fast Payouts-min.571c50802b11053d75873a6ecf81406d.svg",
     "index.html": "/Click2Dep/index.html",
-    "main.72899815.css.map": "/Click2Dep/static/css/main.72899815.css.map",
-    "main.cd2da4bc.js.map": "/Click2Dep/static/js/main.cd2da4bc.js.map"
+    "main.3784511d.css.map": "/Click2Dep/static/css/main.3784511d.css.map",
+    "main.1d4864dc.js.map": "/Click2Dep/static/js/main.1d4864dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.72899815.css",
-    "static/js/main.cd2da4bc.js"
+    "static/css/main.3784511d.css",
+    "static/js/main.1d4864dc.js"
   ]
 }
