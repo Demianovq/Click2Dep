@@ -13,8 +13,8 @@ export const Navigation = () => {
   });
 
   useEffect(() => {
-    setAOpacity(!state);
-  }, [state]);
+    setAOpacity(true);
+  }, []);
   return (
     <Container>
       <animated.div

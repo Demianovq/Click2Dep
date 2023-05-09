@@ -20,8 +20,8 @@ export const Hero = () => {
   });
 
   useEffect(() => {
-    toggle(!state);
-  }, [state]);
+    toggle(true);
+  }, []);
 
   const [vantaEffect, setVantaEffect] = React.useState(0);
   const vantaRef = React.useRef(null);
@@ -56,7 +56,6 @@ export const Hero = () => {
       <Container>
         <HeroTitle>Performance Digital CPA Agency</HeroTitle>
         <animated.div
-          onClick={() => toggle(!state)}
           style={{
             opacity: x.to({ range: [0, 1], output: [1, 1] }),
             scale: x.to({
