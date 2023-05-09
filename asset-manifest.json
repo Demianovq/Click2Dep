@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/Click2Dep/static/css/main.3784511d.css",
-    "main.js": "/Click2Dep/static/js/main.1d4864dc.js",
-    "static/media/hero-min.svg": "/Click2Dep/static/media/hero-min.520bfc33115d8db7b3016e97f7d3322a.svg",
+    "main.css": "/Click2Dep/static/css/main.489c34ec.css",
+    "main.js": "/Click2Dep/static/js/main.760fba14.js",
     "static/media/About2-min.svg": "/Click2Dep/static/media/About2-min.bde28e2691efdfe18894b1bb8c43d58a.svg",
     "static/media/About-min.svg": "/Click2Dep/static/media/About-min.2f8fd64cda1a8b82b51a9a6bcae9d61a.svg",
     "static/media/Support-min.svg": "/Click2Dep/static/media/Support-min.47a399a5ba20a20c3a880291c7e5a51d.svg",
@@ -12,11 +11,11 @@
     "static/media/Many niches-min.svg": "/Click2Dep/static/media/Many niches-min.29e02f3af392c1db5985ade62acf0b45.svg",
     "static/media/Fast Payouts-min.svg": "/Click2Dep/static/media/Fast Payouts-min.571c50802b11053d75873a6ecf81406d.svg",
     "index.html": "/Click2Dep/index.html",
-    "main.3784511d.css.map": "/Click2Dep/static/css/main.3784511d.css.map",
-    "main.1d4864dc.js.map": "/Click2Dep/static/js/main.1d4864dc.js.map"
+    "main.489c34ec.css.map": "/Click2Dep/static/css/main.489c34ec.css.map",
+    "main.760fba14.js.map": "/Click2Dep/static/js/main.760fba14.js.map"
   },
   "entrypoints": [
-    "static/css/main.3784511d.css",
-    "static/js/main.1d4864dc.js"
+    "static/css/main.489c34ec.css",
+    "static/js/main.760fba14.js"
   ]
 }
