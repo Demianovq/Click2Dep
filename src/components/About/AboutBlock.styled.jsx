@@ -6,17 +6,15 @@ export const AboutStyledBlock = styled('div')`
 
 export const AboutTitle = styled('h2')`
   font-weight: 900;
-  font-size: 44px;
+  font-size: 65px;
   line-height: calc(60 / 44);
   text-align: center;
-  text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-    -1px -1px 0 black;
-  color: white;
+
+  color: black;
   display: block;
   width: 696px;
   font-family: 'Morganite';
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+
   display: block;
 
   margin-left: auto;

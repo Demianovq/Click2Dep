@@ -1,27 +1,13 @@
-import {
-  HeroTitle,
-  HeroSection,
-  StyledHeroLink,
-  ScrollMouse,
-  ScrollText,
-  AboutSection,
-  AdvantagesSection,
-} from './HomePage.styled';
+import { AboutSection, AdvantagesSection } from './HomePage.styled';
 import { Container } from 'components/Container/Container.styled';
 import { AboutBlock } from 'components/About/About';
 import { Advantages } from 'components/Advantages/Advantages';
+import { Hero } from 'components/Hero/Hero';
 
 export const HomePage = () => {
   return (
     <>
-      <HeroSection>
-        <Container>
-          <HeroTitle>Performance Digital CPA Agency</HeroTitle>
-          <StyledHeroLink to="/about">About us</StyledHeroLink>
-          <ScrollMouse></ScrollMouse>
-          <ScrollText>Scroll Down</ScrollText>
-        </Container>
-      </HeroSection>
+      <Hero />
       <AboutSection>
         <Container>
           <AboutBlock />

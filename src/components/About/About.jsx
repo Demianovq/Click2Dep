@@ -1,7 +1,8 @@
 import meetingImage from 'images/About2-min.svg';
 import workImage from 'images/About-min.svg';
-// import Marquee from 'react-double-marquee';
+import { animated } from '@react-spring/web';
 import { AboutStyledBlock, AboutTitle, AboutText } from './AboutBlock.styled';
+
 export const AboutBlock = () => {
   return (
     <>
@@ -16,10 +17,14 @@ export const AboutBlock = () => {
           challenging of opportunities into successful ventures.
         </AboutText>
 
-        <img src={meetingImage} alt="About Us" width={585} />
+        <animated.div>
+          <img src={meetingImage} alt="About Us" width={585} />
+        </animated.div>
       </AboutStyledBlock>
       <AboutStyledBlock>
-        <img src={workImage} alt="About Us" width={585} />
+        <animated.div>
+          <img src={workImage} alt="About Us" width={585} />
+        </animated.div>
 
         <AboutText className="text-style-about">
           We understand the importance of being flexible and intuitive in a

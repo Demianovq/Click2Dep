@@ -5,13 +5,12 @@ export const AdvantagesTitle = styled('h2')`
   font-size: 44px;
   line-height: calc(60 / 44);
   text-align: center;
-  text-shadow: 1px 1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
-    -1px -1px 0 white;
-  color: Black;
+
+  color: white;
 
   display: block;
   width: 696px;
-  font-family: 'Morganite';
+  font-family: 'Montserrat';
   letter-spacing: 0.06em;
   text-transform: uppercase;
   display: block;
@@ -76,7 +75,7 @@ export const AdvantagesItemText = styled('p')`
   color: white;
   display: block;
   font-family: 'Morganite';
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   display: block;
   margin-left: auto;
   margin-right: auto;

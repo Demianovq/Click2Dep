@@ -6,17 +6,21 @@ export const StyledLink = styled(NavLink)`
   color: #dce0e1;
   position: relative;
   display: block;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
-  margin: 30px 0;
-
+  margin: 20px 0;
   padding: 7px 20px;
-  text-transform: uppercase;
   overflow: hidden;
   transition: 1s all ease;
+  letter-spacing: 1px;
 
   &::before {
-    background: linear-gradient(to left, #004691, #1d1d37);
+    background-image: radial-gradient(
+      circle at -20.44% 56.16%,
+      #40f2ff 0,
+      #0793fa 50%,
+      #003f77 100%
+    );
     content: '';
     position: absolute;
     top: 50%;
@@ -47,25 +51,5 @@ export const NavItem = styled('li')`
   }
   &:last-child {
     margin-left: auto;
-  }
-  &::after {
-    /* content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 4px;
-    background-color: #2196f3;
-    border-radius: 2px; */
-    /* content: '';
-    display: block;
-    width: 1%;
-    height: 2px;
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translate(-50%);
-    transition: width 0.25s ease-in-out; */
   }
 `;
