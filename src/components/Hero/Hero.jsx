@@ -21,7 +21,7 @@ export const Hero = () => {
 
   useEffect(() => {
     toggle(!state);
-  }, []);
+  }, [state]);
 
   const [vantaEffect, setVantaEffect] = React.useState(0);
   const vantaRef = React.useRef(null);
@@ -50,7 +50,7 @@ export const Hero = () => {
     return () => {
       if (vantaEffect) vantaEffect.destroy();
     };
-  }, [vantaEffect]);
+  }, [vantaEffect, windowInnerHeight]);
   return (
     <HeroSection ref={vantaRef}>
       <Container>
