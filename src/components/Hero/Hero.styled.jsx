@@ -5,20 +5,29 @@ const windowInnerHeight = document.documentElement.clientHeight;
 
 export const HeroTitle = styled('h1')`
   padding-top: 300px;
+  padding-bottom: 80px;
   font-weight: 900;
-  font-size: 44px;
+  font-size: 30px;
   line-height: calc(60 / 44);
   text-align: center;
   color: #fff;
   display: block;
   width: 696px;
-  font-family: 'Morganite';
-  letter-spacing: 0.06em;
+
+  font-family: 'Libre Baskerville', sans-serif;
+  letter-spacing: 10px;
   text-transform: uppercase;
-  display: block;
+
   text-shadow: 2px 2px 3px black;
   margin-left: auto;
   margin-right: auto;
+`;
+
+export const HeroTitleNameOfAgency = styled('span')`
+  font-size: 100px;
+
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 10px;
 `;
 
 export const HeroSection = styled('section')`
@@ -31,7 +40,7 @@ export const StyledHeroLink = styled(NavLink)`
   display: flex;
   justify-content: center;
   line-height: 42px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 
   width: 300px;

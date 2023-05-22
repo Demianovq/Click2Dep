@@ -1,18 +1,22 @@
 import { Outlet } from 'react-router-dom';
 import { Navigation } from '../Navigation/Navigation';
+import { Header } from './Layout.styled';
+import { Footer } from 'components/Footer/Footer';
 
 export const Layout = () => {
   return (
     <>
-      <header className="headers">
+      <Header>
         <nav>
           <Navigation />
         </nav>
-      </header>
+      </Header>
       <main>
         <Outlet />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

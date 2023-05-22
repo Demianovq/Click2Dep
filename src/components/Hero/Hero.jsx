@@ -8,6 +8,7 @@ import {
   PositionsBlock,
   ScrollMouse,
   ScrollText,
+  HeroTitleNameOfAgency,
 } from './Hero.styled';
 import { Container } from 'components/Container/Container.styled';
 
@@ -43,7 +44,7 @@ export const Hero = () => {
           shininess: 150.0,
           waveHeight: 40.0,
           waveSpeed: 0.85,
-          zoom: 0.5,
+          zoom: 0.7,
         })
       );
     }
@@ -54,7 +55,10 @@ export const Hero = () => {
   return (
     <HeroSection ref={vantaRef}>
       <Container>
-        <HeroTitle>Performance Digital CPA Agency</HeroTitle>
+        <HeroTitle>
+          Digital Performance{' '}
+          <HeroTitleNameOfAgency>Click2Dep</HeroTitleNameOfAgency> CPA Agency
+        </HeroTitle>
         <animated.div
           style={{
             opacity: x.to({ range: [0, 1], output: [1, 1] }),

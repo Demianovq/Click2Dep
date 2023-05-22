@@ -1,4 +1,9 @@
-import { NavList, NavItem, StyledLink } from './Navigation.styled';
+import {
+  NavList,
+  NavItem,
+  StyledLink,
+  StyledLinkJoin,
+} from './Navigation.styled';
 import { Container } from 'components/Container/Container.styled';
 
 import React, { useState, useEffect } from 'react';
@@ -32,14 +37,12 @@ export const Navigation = () => {
           <NavItem>
             <StyledLink to="/advertiser">Advertiser</StyledLink>
           </NavItem>
-          <NavItem>
-            <StyledLink to="/about">About us</StyledLink>
-          </NavItem>
+
           <NavItem>
             <StyledLink to="/blog">Blog</StyledLink>
           </NavItem>
           <NavItem>
-            <StyledLink to="/start">Start to work</StyledLink>
+            <StyledLinkJoin to="/start">Join Us</StyledLinkJoin>
           </NavItem>
         </NavList>
       </animated.div>

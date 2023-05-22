@@ -2,18 +2,19 @@ import styled from 'styled-components';
 
 export const AboutStyledBlock = styled('div')`
   display: flex;
+  background-color: #0793fa;
 `;
 
+export const AboutContainer = styled('div')``;
+
 export const AboutTitle = styled('h2')`
-  font-weight: 900;
+  font-weight: 500;
   font-size: 65px;
   line-height: calc(60 / 44);
   text-align: center;
-
-  color: black;
+  background-color: linear-gradient(to right, black 50%, white 50%);
   display: block;
-  width: 696px;
-  font-family: 'Morganite';
+  font-family: 'Libre Baskerville', sans-serif;
 
   display: block;
 
@@ -24,13 +25,13 @@ export const AboutTitle = styled('h2')`
 
 export const AboutText = styled('p')`
   font-weight: 500;
-  font-size: 20px;
+  font-size: 19px;
   line-height: calc(60 / 44);
   text-align: center;
-  color: black;
+  color: white;
   display: block;
-  font-family: 'Morganite';
-  letter-spacing: 0.06em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.03em;
   display: block;
   margin-left: auto;
   margin-right: auto;
