@@ -14,6 +14,7 @@ export const StyledLink = styled(NavLink)`
   overflow: hidden;
   transition: 1s all ease;
   letter-spacing: 1px;
+  text-transform: uppercase;
 
   &::before {
     background-image: radial-gradient(
@@ -42,6 +43,7 @@ export const StyledLinkJoin = styled(NavLink)`
   text-decoration: none;
   color: #0793fa;
   position: relative;
+  text-transform: uppercase;
   display: block;
   font-size: 20px;
   text-decoration: none;

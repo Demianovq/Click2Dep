@@ -14,7 +14,9 @@ export const AboutTitle = styled('h2')`
   text-align: center;
   background-color: linear-gradient(to right, black 50%, white 50%);
   display: block;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #0793fa;
 
   display: block;
 

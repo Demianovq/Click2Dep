@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const AdvantagesTitle = styled('h2')`
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 65px;
   line-height: calc(60 / 44);
   text-align: center;
-
-  color: white;
+  text-transform: uppercase;
+  color: #0793fa;
 
   display: block;
 

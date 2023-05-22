@@ -26,12 +26,13 @@ export const CarouselBlock = styled('div')`
 `;
 
 export const CarouselTitle = styled('h3')`
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 65px;
   line-height: calc(60 / 44);
   text-align: center;
   color: #f0f8ff;
+  text-transform: uppercase;
 
   display: block;
 
