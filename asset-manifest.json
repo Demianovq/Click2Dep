@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Click2Dep/static/css/main.489c34ec.css",
-    "main.js": "/Click2Dep/static/js/main.76088818.js",
+    "main.css": "/Click2Dep/static/css/main.6f4ed5d8.css",
+    "main.js": "/Click2Dep/static/js/main.8165f1a1.js",
+    "static/media/Global-BackGround-min.svg": "/Click2Dep/static/media/Global-BackGround-min.d3a1f254a96abb56a7e7b81f52f5dc92.svg",
     "static/media/About2-min.svg": "/Click2Dep/static/media/About2-min.bde28e2691efdfe18894b1bb8c43d58a.svg",
     "static/media/About-min.svg": "/Click2Dep/static/media/About-min.2f8fd64cda1a8b82b51a9a6bcae9d61a.svg",
     "static/media/Support-min.svg": "/Click2Dep/static/media/Support-min.47a399a5ba20a20c3a880291c7e5a51d.svg",
@@ -10,12 +11,15 @@
     "static/media/Exclusive Offers-min.svg": "/Click2Dep/static/media/Exclusive Offers-min.4bcceaf4e4f732d26a6eb3a57dee6158.svg",
     "static/media/Many niches-min.svg": "/Click2Dep/static/media/Many niches-min.29e02f3af392c1db5985ade62acf0b45.svg",
     "static/media/Fast Payouts-min.svg": "/Click2Dep/static/media/Fast Payouts-min.571c50802b11053d75873a6ecf81406d.svg",
+    "static/media/revicons.eot": "/Click2Dep/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Click2Dep/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Click2Dep/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Click2Dep/index.html",
-    "main.489c34ec.css.map": "/Click2Dep/static/css/main.489c34ec.css.map",
-    "main.76088818.js.map": "/Click2Dep/static/js/main.76088818.js.map"
+    "main.6f4ed5d8.css.map": "/Click2Dep/static/css/main.6f4ed5d8.css.map",
+    "main.8165f1a1.js.map": "/Click2Dep/static/js/main.8165f1a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.489c34ec.css",
-    "static/js/main.76088818.js"
+    "static/css/main.6f4ed5d8.css",
+    "static/js/main.8165f1a1.js"
   ]
 }
