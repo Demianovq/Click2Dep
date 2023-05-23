@@ -1,10 +1,14 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-
+import { useInView } from 'framer-motion';
+import { useRef } from 'react';
 import { CarouselItem, CarouselBlock, CarouselTitle } from './FeedBack.styled';
 
 export const FeedBack = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -27,7 +31,14 @@ export const FeedBack = () => {
   return (
     <>
       <CarouselTitle>Feedback from our clients</CarouselTitle>
-      <CarouselBlock>
+      <CarouselBlock
+        ref={ref}
+        style={{
+          transform: isInView ? 'none' : 'translateX(+200px)',
+          opacity: isInView ? 1 : 0,
+          transition: 'all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s',
+        }}
+      >
         <Carousel responsive={responsive} autoPlay={true} infinite={true}>
           <CarouselItem>
             The team at Click2Dep is always willing to go above and beyond to

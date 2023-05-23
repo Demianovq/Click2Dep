@@ -14,7 +14,7 @@ export const Navigation = () => {
   const { x } = useSpring({
     from: { x: 0 },
     x: state ? 1 : 0,
-    config: { duration: 1800 },
+    config: { duration: 1000 },
   });
 
   useEffect(() => {

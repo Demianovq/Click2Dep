@@ -5,8 +5,6 @@ export const AboutStyledBlock = styled('div')`
   background-color: #0793fa;
 `;
 
-export const AboutContainer = styled('div')``;
-
 export const AboutTitle = styled('h2')`
   font-weight: 500;
   font-size: 65px;

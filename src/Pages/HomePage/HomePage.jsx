@@ -8,6 +8,7 @@ import { AboutBlock } from 'components/About/About';
 import { Advantages } from 'components/Advantages/Advantages';
 import { Hero } from 'components/Hero/Hero';
 import { FeedBack } from 'components/FeedBack/FeedBack';
+import { Ticker } from 'components/Ticker/Ticker';
 
 export const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ export const HomePage = () => {
         <Container>
           <FeedBack />
         </Container>
+        <Ticker />
       </FeedBackSection>
       <AdvantagesSection>
         <Container>

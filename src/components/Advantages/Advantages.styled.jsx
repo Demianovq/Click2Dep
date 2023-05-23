@@ -41,7 +41,6 @@ export const AdvantagesIconsBlock = styled('div')`
   &:hover,
   &:focus {
     transform: scale(1.05);
-    background: rgba(0, 0, 0, 0);
     box-shadow: inset 0 0 0 3px #3a7999;
   }
 `;
