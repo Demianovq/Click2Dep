@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/Click2Dep/static/css/main.f16d425e.css",
-    "main.js": "/Click2Dep/static/js/main.8464f7a5.js",
+    "main.css": "/Click2Dep/static/css/main.8e4f0c1f.css",
+    "main.js": "/Click2Dep/static/js/main.e2f8dda6.js",
+    "static/media/about-leftside.jpg": "/Click2Dep/static/media/about-leftside.b83c2c2c63d04048cfd6.jpg",
+    "static/media/about-rightside.jpg": "/Click2Dep/static/media/about-rightside.30b936ec93980578da0f.jpg",
     "static/media/Global-BackGround-min.svg": "/Click2Dep/static/media/Global-BackGround-min.d3a1f254a96abb56a7e7b81f52f5dc92.svg",
     "static/media/About2-min.svg": "/Click2Dep/static/media/About2-min.bde28e2691efdfe18894b1bb8c43d58a.svg",
+    "static/media/Wide range of offers and GEOs.svg": "/Click2Dep/static/media/Wide range of offers and GEOs.993421a59db369e300169b3a440866d7.svg",
+    "static/media/User-friendly tracking system.svg": "/Click2Dep/static/media/User-friendly tracking system.b1aa1fc685d15e9e319c7a4ad0eb514f.svg",
+    "static/media/Anti-fraud system.svg": "/Click2Dep/static/media/Anti-fraud system.f63e7d7f536734b0894555d150708330.svg",
     "static/media/About-min.svg": "/Click2Dep/static/media/About-min.2f8fd64cda1a8b82b51a9a6bcae9d61a.svg",
+    "static/media/Quality traffic.svg": "/Click2Dep/static/media/Quality traffic.3f3512832e6edad3b832911892335967.svg",
+    "static/media/Many niches.svg": "/Click2Dep/static/media/Many niches.66a8014f289e6a60a093ed390d29da77.svg",
     "static/media/Support-min.svg": "/Click2Dep/static/media/Support-min.47a399a5ba20a20c3a880291c7e5a51d.svg",
     "static/media/Loyalty Program-min.svg": "/Click2Dep/static/media/Loyalty Program-min.d19b93c71a2265d63c4d36ec4ad16d4b.svg",
     "static/media/Minimal Hold-min.svg": "/Click2Dep/static/media/Minimal Hold-min.d4aa54a0ffeb219a9f17cc4b4548ad9c.svg",
     "static/media/Exclusive Offers-min.svg": "/Click2Dep/static/media/Exclusive Offers-min.4bcceaf4e4f732d26a6eb3a57dee6158.svg",
     "static/media/Many niches-min.svg": "/Click2Dep/static/media/Many niches-min.29e02f3af392c1db5985ade62acf0b45.svg",
     "static/media/Fast Payouts-min.svg": "/Click2Dep/static/media/Fast Payouts-min.571c50802b11053d75873a6ecf81406d.svg",
+    "static/media/Experienced affiliates.svg": "/Click2Dep/static/media/Experienced affiliates.bae54492788bcae64794dd8c0b2d2312.svg",
     "static/media/revicons.eot": "/Click2Dep/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Click2Dep/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Click2Dep/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Click2Dep/index.html",
-    "main.f16d425e.css.map": "/Click2Dep/static/css/main.f16d425e.css.map",
-    "main.8464f7a5.js.map": "/Click2Dep/static/js/main.8464f7a5.js.map"
+    "main.8e4f0c1f.css.map": "/Click2Dep/static/css/main.8e4f0c1f.css.map",
+    "main.e2f8dda6.js.map": "/Click2Dep/static/js/main.e2f8dda6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f16d425e.css",
-    "static/js/main.8464f7a5.js"
+    "static/css/main.8e4f0c1f.css",
+    "static/js/main.e2f8dda6.js"
   ]
 }
