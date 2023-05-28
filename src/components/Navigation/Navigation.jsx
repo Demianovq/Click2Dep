@@ -27,7 +27,7 @@ export const Navigation = () => {
           opacity: x.to({ range: [0, 1], output: [0, 1] }),
         }}
       >
-        <NavList>
+        <NavList backColor="black">
           <NavItem>
             <StyledLink to="/">Click2Dep</StyledLink>
           </NavItem>

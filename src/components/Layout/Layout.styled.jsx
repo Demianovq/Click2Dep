@@ -5,4 +5,5 @@ export const Header = styled('header')`
   top: 0;
   z-index: 5;
   width: 100%;
+  background-color: #151515;
 `;

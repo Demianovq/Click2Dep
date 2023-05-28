@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import { Layout } from './Layout/Layout';
 import { HomePage } from 'Pages/HomePage/HomePage';
-import { AffiliatesPage } from 'Pages/AffiliatesPage';
-import { AdvertiserPage } from 'Pages/AdvertiserPage';
+import { AffiliatesPage } from 'Pages/AffiliatesPage/AffiliatesPage';
+import { AdvertiserPage } from 'Pages/AdvertiserPage/AdvertiserPage';
 
 import { BlogPage } from 'Pages/BlogPage';
 import { StartToWorkPage } from 'Pages/StartToWorkPage';

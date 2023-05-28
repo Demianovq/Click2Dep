@@ -28,7 +28,7 @@ export const AboutText = styled('p')`
   font-size: 19px;
   line-height: calc(60 / 44);
   text-align: center;
-  color: white;
+  color: #f0f8ff;
   display: block;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.03em;

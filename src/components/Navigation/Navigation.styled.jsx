@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const StyledLink = styled(NavLink)`
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  color: #dce0e1;
+  color: #f0f8ff;
   position: relative;
   display: block;
   font-size: 20px;
@@ -50,7 +50,7 @@ export const StyledLinkJoin = styled(NavLink)`
   margin: 20px 0;
   padding: 7px 20px;
   letter-spacing: 1px;
-  background-color: white;
+  background-color: #f0f8ff;
   border-radius: 35px;
   &:hover {
     scale: calc(1.1);

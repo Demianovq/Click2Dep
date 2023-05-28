@@ -13,7 +13,7 @@ export const TickerBlock = styled('div')`
   margin-top: 100px;
   color: white;
   font-size: 30px;
-  background-color: black;
+  background-color: #151515;
   border-radius: 20px;
   overflow: hidden;
 `;

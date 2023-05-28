@@ -10,7 +10,6 @@ export const AboutBlock = () => {
   return (
     <>
       <AboutTitle>About Us</AboutTitle>
-
       <AboutStyledBlock>
         <AboutText>
           Click2Dep is a team of devoted marketing professionals who are
