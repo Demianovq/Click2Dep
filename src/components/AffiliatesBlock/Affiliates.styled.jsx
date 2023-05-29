@@ -2,12 +2,15 @@ import styled from 'styled-components';
 
 export const AffiliatesBlock = styled('div')`
   display: flex;
-  gap: 50px;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
 `;
 
 export const AffiliatesTextContentBlock = styled('div')`
   align-items: center;
   text-align: center;
+  padding-left: 15px;
 `;
 
 export const AffiliatesTitle = styled('h2')`
@@ -72,6 +75,7 @@ export const AffiliatesList = styled('ul')`
   display: flex;
   gap: 30px;
   margin-top: 70px;
+  justify-content: center;
 `;
 
 export const AffiliatesItem = styled('li')`

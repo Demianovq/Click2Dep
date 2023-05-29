@@ -1,14 +1,14 @@
 import { AffiliatesSection } from './AffiliatesPage.styled';
-import { Container } from 'components/Container/Container.styled';
+import { PureContainer } from 'components/Container/Container.styled';
 import { Affiliates } from 'components/AffiliatesBlock/Affiliates';
 
 export const AffiliatesPage = () => {
   return (
     <>
       <AffiliatesSection>
-        <Container>
+        <PureContainer>
           <Affiliates />
-        </Container>
+        </PureContainer>
       </AffiliatesSection>
     </>
   );

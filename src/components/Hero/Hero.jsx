@@ -38,7 +38,7 @@ export const Hero = () => {
           touchControls: true,
           gyroControls: false,
           minHeight: windowInnerHeight,
-          minWidth: 1200.0,
+          minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
           shininess: 150.0,

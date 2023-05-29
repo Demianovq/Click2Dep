@@ -2,12 +2,15 @@ import styled from 'styled-components';
 
 export const AdvertiserBlock = styled('div')`
   display: flex;
-  gap: 50px;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
 `;
 
 export const AdvertiserTextContentBlock = styled('div')`
   align-items: center;
   text-align: center;
+  padding-right: 15px;
 `;
 
 export const AdvertiserTitle = styled('h2')`
@@ -72,6 +75,7 @@ export const AdvertiserList = styled('ul')`
   display: flex;
   gap: 30px;
   margin-top: 70px;
+  justify-content: center;
 `;
 
 export const AdvertiserItem = styled('li')`

@@ -4,7 +4,6 @@ import {
   StyledLink,
   StyledLinkJoin,
 } from './Navigation.styled';
-import { Container } from 'components/Container/Container.styled';
 
 import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from '@react-spring/web';
@@ -21,7 +20,7 @@ export const Navigation = () => {
     setAOpacity(true);
   }, []);
   return (
-    <Container>
+    <>
       <animated.div
         style={{
           opacity: x.to({ range: [0, 1], output: [0, 1] }),
@@ -46,6 +45,6 @@ export const Navigation = () => {
           </NavItem>
         </NavList>
       </animated.div>
-    </Container>
+    </>
   );
 };

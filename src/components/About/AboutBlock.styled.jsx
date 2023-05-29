@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const AboutStyledBlock = styled('div')`
   display: flex;
   background-color: #0793fa;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 export const AboutTitle = styled('h2')`

@@ -55,6 +55,7 @@ export const Advertiser = () => {
           technology. If you have offers for any GEOs, please contact our
           managers.
         </AdvertiserText>
+
         <AdvertiserList>
           <AdvertiserItem
             ref={ref}

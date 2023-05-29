@@ -21,8 +21,11 @@ export const AdvantagesTitle = styled('h2')`
 export const AdvantagesBlock = styled('div')`
   flex-wrap: wrap;
   display: flex;
-  gap: 20px;
+  gap: 30px;
   padding-top: 7px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 export const AdvantagesIconsBlock = styled('div')`
