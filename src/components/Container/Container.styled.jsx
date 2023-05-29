@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { device } from 'utils/breakpoints.styled';
 
 export const Container = styled('div')`
-  min-width: 1170px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
 
