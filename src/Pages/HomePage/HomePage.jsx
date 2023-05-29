@@ -3,10 +3,7 @@ import {
   AdvantagesSection,
   FeedBackSection,
 } from './HomePage.styled';
-import {
-  Container,
-  PureContainer,
-} from 'components/Container/Container.styled';
+import { Container } from 'components/Container/Container.styled';
 import { AboutBlock } from 'components/About/About';
 import { Advantages } from 'components/Advantages/Advantages';
 import { Hero } from 'components/Hero/Hero';
