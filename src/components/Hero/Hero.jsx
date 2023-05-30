@@ -10,7 +10,6 @@ import {
   ScrollText,
   HeroTitleNameOfAgency,
 } from './Hero.styled';
-import { Container } from 'components/Container/Container.styled';
 
 export const Hero = () => {
   const [state, toggle] = useState(false);
