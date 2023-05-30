@@ -14,6 +14,7 @@ import {
   AdvertiserText,
   AdvertiserLink,
   AdvertiserTextContentBlock,
+  AdvertiserImg,
 } from './Advertiser.styled';
 
 export const Advertiser = () => {
@@ -21,10 +22,9 @@ export const Advertiser = () => {
   const isInView = useInView(ref, { once: true });
   return (
     <AdvertiserBlock>
-      <img
+      <AdvertiserImg
         src={aboutRight}
         alt="About Us"
-        width={500}
         ref={ref}
         style={{
           transform: isInView ? 'none' : 'translateY(-200px)',

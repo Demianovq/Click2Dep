@@ -8,6 +8,7 @@ import {
   AffiliatesItemText,
   AffiliatesLink,
   AffiliatesTextContentBlock,
+  AffiliatesImg,
 } from './Affiliates.styled';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
@@ -90,10 +91,9 @@ export const Affiliates = () => {
           </AffiliatesItem>
         </AffiliatesList>
       </AffiliatesTextContentBlock>
-      <img
+      <AffiliatesImg
         src={aboutLeft}
         alt="About Us"
-        width={500}
         ref={ref}
         style={{
           transform: isInView ? 'none' : 'translateY(-200px)',

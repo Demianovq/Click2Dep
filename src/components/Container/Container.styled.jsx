@@ -5,11 +5,12 @@ export const Container = styled('div')`
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
-
   margin: 0 auto;
-
   @media ${device.mobileEnd} {
     max-width: 480px;
+  }
+  @media ${device.tabletEnd} {
+    width: 768px;
   }
 `;
 

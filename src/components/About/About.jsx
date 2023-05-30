@@ -2,7 +2,12 @@ import meetingImage from 'images/About2-min.svg';
 import workImage from 'images/About-min.svg';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { AboutStyledBlock, AboutTitle, AboutText } from './AboutBlock.styled';
+import {
+  AboutStyledBlock,
+  AboutTitle,
+  AboutText,
+  AboutImg,
+} from './AboutBlock.styled';
 
 export const AboutBlock = () => {
   const ref = useRef(null);
@@ -26,7 +31,7 @@ export const AboutBlock = () => {
             transition: 'all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s',
           }}
         >
-          <img src={meetingImage} alt="About Us" width={585} />
+          <AboutImg src={meetingImage} alt="About Us" />
         </div>
       </AboutStyledBlock>
       <AboutStyledBlock>
@@ -38,7 +43,7 @@ export const AboutBlock = () => {
             transition: 'all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s',
           }}
         >
-          <img src={workImage} alt="About Us" width={585} />
+          <AboutImg src={workImage} alt="About Us" />
         </div>
 
         <AboutText>

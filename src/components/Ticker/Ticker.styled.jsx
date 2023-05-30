@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from 'utils/breakpoints.styled';
 
 export const TickerBlock = styled('div')`
   white-space: nowrap;
@@ -16,4 +17,10 @@ export const TickerBlock = styled('div')`
   background-color: #151515;
   border-radius: 20px;
   overflow: hidden;
+
+  @media ${device.mobileEnd} {
+  }
+  @media ${device.tabletEnd} {
+    width: 550px;
+  }
 `;

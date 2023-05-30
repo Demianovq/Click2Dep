@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+const windowInnerHeight = document.documentElement.clientHeight;
+
 export const AdvertiserBlock = styled('div')`
   display: flex;
   gap: 15px;
@@ -23,6 +25,10 @@ export const AdvertiserTitle = styled('h2')`
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 40px;
+`;
+
+export const AdvertiserImg = styled('img')`
+  height: ${windowInnerHeight - 77}px;
 `;
 
 export const AdvertiserLink = styled('a')`

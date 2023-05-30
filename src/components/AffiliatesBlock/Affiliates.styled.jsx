@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+const windowInnerHeight = document.documentElement.clientHeight;
 
 export const AffiliatesBlock = styled('div')`
   display: flex;
@@ -23,6 +24,10 @@ export const AffiliatesTitle = styled('h2')`
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 40px;
+`;
+
+export const AffiliatesImg = styled('img')`
+  height: ${windowInnerHeight - 77}px;
 `;
 
 export const AffiliatesLink = styled('a')`

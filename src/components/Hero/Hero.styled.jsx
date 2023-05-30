@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import { device } from 'utils/breakpoints.styled';
 
 const windowInnerHeight = document.documentElement.clientHeight;
 
@@ -21,6 +22,11 @@ export const HeroTitle = styled('h1')`
   text-shadow: 2px 2px 3px black;
   margin-left: auto;
   margin-right: auto;
+  @media ${device.mobileEnd} {
+  }
+  @media ${device.tabletEnd} {
+    width: 550px;
+  }
 `;
 
 export const HeroTitleNameOfAgency = styled('span')`
@@ -28,10 +34,16 @@ export const HeroTitleNameOfAgency = styled('span')`
 
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 10px;
+
+  @media ${device.mobileEnd} {
+  }
+  @media ${device.tabletEnd} {
+    font-size: 75px;
+  }
 `;
 
 export const HeroSection = styled('section')`
-  background-color: black;
+  background-color: white;
   width: 100%;
   height: ${windowInnerHeight}px;
 `;

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import { device } from 'utils/breakpoints.styled';
 
 export const StyledLink = styled(NavLink)`
   font-family: 'Montserrat', sans-serif;
@@ -48,6 +49,7 @@ export const StyledLinkJoin = styled(NavLink)`
   font-size: 20px;
   text-decoration: none;
   margin: 20px 0;
+
   padding: 7px 20px;
   letter-spacing: 1px;
   background-color: #f0f8ff;
@@ -63,6 +65,9 @@ export const NavList = styled('ul')`
   gap: 30px;
   justify-content: center;
   position: relative;
+  @media ${device.tabletEnd} {
+    display: none;
+  }
 `;
 
 export const NavItem = styled('li')`

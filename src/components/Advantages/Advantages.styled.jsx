@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { device } from 'utils/breakpoints.styled';
+
 export const AdvantagesTitle = styled('h2')`
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -26,6 +28,13 @@ export const AdvantagesBlock = styled('div')`
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
+
+  @media ${device.mobileEnd} {
+  }
+  @media ${device.tabletEnd} {
+    width: 768px;
+    display: flex;
+  }
 `;
 
 export const AdvantagesIconsBlock = styled('div')`
@@ -45,6 +54,12 @@ export const AdvantagesIconsBlock = styled('div')`
   &:focus {
     transform: scale(1.05);
     box-shadow: inset 0 0 0 3px #3a7999;
+  }
+
+  @media ${device.mobileEnd} {
+  }
+  @media ${device.tabletEnd} {
+    width: 369px;
   }
 `;
 

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from 'utils/breakpoints.styled';
 
 export const AboutStyledBlock = styled('div')`
   display: flex;
@@ -6,6 +7,22 @@ export const AboutStyledBlock = styled('div')`
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
+
+  @media ${device.mobileEnd} {
+    max-width: 480px;
+  }
+  @media ${device.tabletEnd} {
+    width: 738px;
+  }
+`;
+
+export const AboutImg = styled('img')`
+  width: 585px;
+  @media ${device.mobileEnd} {
+  }
+  @media ${device.tabletEnd} {
+    width: 530px;
+  }
 `;
 
 export const AboutTitle = styled('h2')`
@@ -24,6 +41,12 @@ export const AboutTitle = styled('h2')`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+
+  @media ${device.mobileEnd} {
+  }
+  @media ${device.tabletEnd} {
+    font-size: 55px;
+  }
 `;
 
 export const AboutText = styled('p')`
@@ -41,4 +64,9 @@ export const AboutText = styled('p')`
   line-height: 1.71;
   width: 530px;
   margin-top: 30px;
+  @media ${device.mobileEnd} {
+  }
+  @media ${device.tabletEnd} {
+    font-size: 12px;
+  }
 `;
