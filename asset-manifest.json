@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Click2Dep/static/css/main.8e4f0c1f.css",
-    "main.js": "/Click2Dep/static/js/main.6c8c233a.js",
+    "main.js": "/Click2Dep/static/js/main.c4a95241.js",
     "static/media/about-leftside.jpg": "/Click2Dep/static/media/about-leftside.b83c2c2c63d04048cfd6.jpg",
     "static/media/about-rightside.jpg": "/Click2Dep/static/media/about-rightside.30b936ec93980578da0f.jpg",
     "static/media/Global-BackGround-min.svg": "/Click2Dep/static/media/Global-BackGround-min.d3a1f254a96abb56a7e7b81f52f5dc92.svg",
@@ -24,10 +24,10 @@
     "static/media/revicons.woff": "/Click2Dep/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Click2Dep/index.html",
     "main.8e4f0c1f.css.map": "/Click2Dep/static/css/main.8e4f0c1f.css.map",
-    "main.6c8c233a.js.map": "/Click2Dep/static/js/main.6c8c233a.js.map"
+    "main.c4a95241.js.map": "/Click2Dep/static/js/main.c4a95241.js.map"
   },
   "entrypoints": [
     "static/css/main.8e4f0c1f.css",
-    "static/js/main.6c8c233a.js"
+    "static/js/main.c4a95241.js"
   ]
 }
