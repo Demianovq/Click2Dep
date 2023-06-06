@@ -25,6 +25,7 @@ export const HeroTitle = styled('h1')`
   @media ${device.mobileEnd} {
   }
   @media ${device.tabletEnd} {
+    padding-top: 150px;
     width: 550px;
   }
 `;
