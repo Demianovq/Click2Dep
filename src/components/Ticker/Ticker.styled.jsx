@@ -6,6 +6,7 @@ export const TickerBlock = styled('div')`
   width: 800px;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-bottom: 100px;
 
   display: flex;
   justify-content: center;

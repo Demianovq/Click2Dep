@@ -19,6 +19,7 @@ export const Navigation = () => {
   useEffect(() => {
     setAOpacity(true);
   }, []);
+
   return (
     <>
       <animated.div

@@ -4,6 +4,8 @@ import 'react-multi-carousel/lib/styles.css';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { CarouselItem, CarouselBlock, CarouselTitle } from './FeedBack.styled';
+import { PositionsBlock, StyledHeroLink } from 'components/Hero/Hero.styled';
+import { Ticker } from 'components/Ticker/Ticker';
 
 export const FeedBack = () => {
   const ref = useRef(null);
@@ -96,6 +98,11 @@ export const FeedBack = () => {
           </CarouselItem>
         </Carousel>
       </CarouselBlock>
+      <Ticker />
+      <PositionsBlock>
+        <StyledHeroLink to="/affiliates">Become An Affiliate</StyledHeroLink>
+        <StyledHeroLink to="/advertiser">Become An Advertiser</StyledHeroLink>
+      </PositionsBlock>
     </>
   );
 };

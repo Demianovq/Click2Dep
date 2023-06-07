@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from 'utils/breakpoints.styled';
 const windowInnerHeight = document.documentElement.clientHeight;
 
 export const AffiliatesBlock = styled('div')`
@@ -27,7 +28,12 @@ export const AffiliatesTitle = styled('h2')`
 `;
 
 export const AffiliatesImg = styled('img')`
+  display: block;
+  margin-bottom: auto;
   height: ${windowInnerHeight - 77}px;
+  @media ${device.tabletEnd} {
+    height: ${windowInnerHeight}px;
+  }
 `;
 
 export const AffiliatesLink = styled('a')`

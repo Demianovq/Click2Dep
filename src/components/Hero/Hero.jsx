@@ -6,8 +6,6 @@ import {
   HeroTitle,
   StyledHeroLink,
   PositionsBlock,
-  ScrollMouse,
-  ScrollText,
   HeroTitleNameOfAgency,
 } from './Hero.styled';
 
@@ -71,8 +69,6 @@ export const Hero = () => {
           <StyledHeroLink to="/advertiser">Become An Advertiser</StyledHeroLink>
         </PositionsBlock>
       </animated.div>
-      <ScrollMouse></ScrollMouse>
-      <ScrollText>Scroll Down</ScrollText>
     </HeroSection>
   );
 };

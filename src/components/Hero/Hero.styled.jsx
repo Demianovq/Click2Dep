@@ -5,7 +5,7 @@ import { device } from 'utils/breakpoints.styled';
 const windowInnerHeight = document.documentElement.clientHeight;
 
 export const HeroTitle = styled('h1')`
-  padding-top: 300px;
+  padding-top: ${windowInnerHeight / 3.5}px;
   padding-bottom: 80px;
   font-weight: 900;
   font-size: 30px;
