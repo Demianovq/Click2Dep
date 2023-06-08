@@ -99,7 +99,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Individual item */
 .bm-item {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-decoration: none;
   font-size: 30px;
 }

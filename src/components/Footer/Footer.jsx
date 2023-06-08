@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import { Container } from 'components/Container/Container.styled';
 import {
   FooterBlock,
@@ -7,6 +9,12 @@ import {
   FooterTitle,
   LinkForDocs,
   BlockOfDocs,
+  BtnOfDocs,
+  StyledLinkLogoFooter,
+  StyledBlockOfDocs,
+  TitleOfDocs,
+  HiddenBlockOfDocs,
+  RightsTitle,
 } from './Footer.styled';
 import instagram from 'images/socials/instagram.png';
 import telegram from 'images/socials/telegram.svg';
@@ -14,13 +22,18 @@ import linkedin from 'images/socials/linkedin.svg';
 import facebook from 'images/socials/facebook.svg';
 import mail from 'images/socials/mail.svg';
 import pdf from 'images/socials/PDFDoc.svg';
+import logo from 'images/logo.png';
+import arrow from 'images/arrow.svg';
 export const Footer = () => {
+  const [docs, WatchADocs] = useState(false);
+
   return (
     <Container>
       <FooterBlock>
-        <FooterTitle>
-          We love our work, so we continually strive for excellence
-        </FooterTitle>
+        <StyledLinkLogoFooter to="/">
+          <img src={logo} alt="Logo" />
+        </StyledLinkLogoFooter>
+        <FooterTitle>We work for Your result.</FooterTitle>
 
         <SocialBlock>
           <MailToBlock>
@@ -58,30 +71,44 @@ export const Footer = () => {
         </SocialBlock>
       </FooterBlock>
       <BlockOfDocs>
-        <LinkForDocs
-          href="https://drive.google.com/file/d/1ftGka7kCPtVNHEAp-aXC23tAwUx4r2U1/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={pdf} alt="Document" width={30} />
-          Privat Policy
-        </LinkForDocs>
-        <LinkForDocs
-          href="https://drive.google.com/file/d/1K9suIi0RVTFk_rZVibsQKfv_wuqts-YW/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={pdf} alt="Document" width={30} />
-          Terms&Conditions for Advertisers
-        </LinkForDocs>
-        <LinkForDocs
-          href="https://drive.google.com/file/d/1pdSiaOphQSnD31F_mJiUaoYtwcn-iJaT/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={pdf} alt="Document" width={30} />
-          Terms&Conditions for Affiliates
-        </LinkForDocs>
+        <StyledBlockOfDocs>
+          <TitleOfDocs>Terms and conditions</TitleOfDocs>
+          <BtnOfDocs type="button" onClick={() => WatchADocs(!docs)}>
+            <img src={arrow} alt="arrow for docs" width={50} />
+          </BtnOfDocs>
+        </StyledBlockOfDocs>
+        {docs ? (
+          <>
+            <HiddenBlockOfDocs>
+              <LinkForDocs
+                href="https://drive.google.com/file/d/1ftGka7kCPtVNHEAp-aXC23tAwUx4r2U1/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={pdf} alt="Document" width={30} />
+                Privat Policy
+              </LinkForDocs>
+              <LinkForDocs
+                href="https://drive.google.com/file/d/1K9suIi0RVTFk_rZVibsQKfv_wuqts-YW/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={pdf} alt="Document" width={30} />
+                Terms&Conditions for Advertisers
+              </LinkForDocs>
+              <LinkForDocs
+                href="https://drive.google.com/file/d/1pdSiaOphQSnD31F_mJiUaoYtwcn-iJaT/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={pdf} alt="Document" width={30} />
+                Terms&Conditions for Affiliates
+              </LinkForDocs>
+            </HiddenBlockOfDocs>
+          </>
+        ) : (
+          <RightsTitle>All rights reserved © 2021</RightsTitle>
+        )}
       </BlockOfDocs>
     </Container>
   );

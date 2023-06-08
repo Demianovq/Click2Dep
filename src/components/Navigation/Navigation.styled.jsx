@@ -59,6 +59,11 @@ export const StyledLinkJoin = styled(NavLink)`
   }
 `;
 
+export const StyledLinkLogo = styled(NavLink)`
+  display: block;
+  margin-top: 12px;
+`;
+
 export const NavList = styled('ul')`
   list-style: none;
   display: flex;

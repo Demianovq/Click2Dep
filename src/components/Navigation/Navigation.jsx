@@ -3,7 +3,10 @@ import {
   NavItem,
   StyledLink,
   StyledLinkJoin,
+  StyledLinkLogo,
 } from './Navigation.styled';
+
+import logo from 'images/logo.png';
 
 import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from '@react-spring/web';
@@ -29,7 +32,9 @@ export const Navigation = () => {
       >
         <NavList backColor="black">
           <NavItem>
-            <StyledLink to="/">Click2Dep</StyledLink>
+            <StyledLinkLogo to="/">
+              <img src={logo} alt="Logo" />
+            </StyledLinkLogo>
           </NavItem>
           <NavItem>
             <StyledLink to="/affiliates">Affiliates</StyledLink>
