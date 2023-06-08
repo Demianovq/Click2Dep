@@ -8,8 +8,6 @@ import {
 
 import instagram from 'images/socials/instagram.png';
 import telegram from 'images/socials/telegram.svg';
-import linkedin from 'images/socials/linkedin.svg';
-import facebook from 'images/socials/facebook.svg';
 
 export const ModalNavigation = () => {
   return (
