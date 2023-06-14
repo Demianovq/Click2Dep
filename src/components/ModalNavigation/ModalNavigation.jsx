@@ -11,10 +11,9 @@ import instagram from 'images/socials/instagram.png';
 import telegram from 'images/socials/telegram.svg';
 
 export const ModalNavigation = () => {
-  const [menu, ToggleMenu] = useState(false);
   return (
     <ModalNav>
-      <Menu isOpen={menu}>
+      <Menu>
         <StyledLink id="home" to="/">
           Home
         </StyledLink>
