@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { device } from 'utils/breakpoints.styled';
+
 const windowInnerHeight = document.documentElement.clientHeight;
 
 export const AffiliatesBlock = styled('div')`
@@ -7,6 +8,9 @@ export const AffiliatesBlock = styled('div')`
   gap: 15px;
   align-items: center;
   text-align: center;
+  @media ${device.tabletEnd} {
+    padding-bottom: 50px;
+  }
 `;
 
 export const AffiliatesTextContentBlock = styled('div')`
@@ -16,6 +20,7 @@ export const AffiliatesTextContentBlock = styled('div')`
 `;
 
 export const AffiliatesTitle = styled('h2')`
+  display: block;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 65px;
@@ -32,7 +37,7 @@ export const AffiliatesImg = styled('img')`
   margin-bottom: auto;
   height: ${windowInnerHeight - 77}px;
   @media ${device.tabletEnd} {
-    height: ${windowInnerHeight}px;
+    display: none;
   }
 `;
 
@@ -80,6 +85,10 @@ export const AffiliatesText = styled('p')`
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+  @media ${device.tabletEnd} {
+    font-size: 18px;
+  }
 `;
 
 export const AffiliatesList = styled('ul')`

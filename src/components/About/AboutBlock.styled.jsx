@@ -1,33 +1,47 @@
 import styled from 'styled-components';
-import { device } from 'utils/breakpoints.styled';
 
 export const AboutStyledBlock = styled('div')`
   display: flex;
   background-color: #0793fa;
-  width: 1170px;
+
   margin-left: auto;
   margin-right: auto;
 
-  @media ${device.mobileEnd} {
-    max-width: 480px;
+  @media screen and (max-width: 767px) {
+    min-width: 300px;
+    display: block;
+
+    margin: 0 0;
+    &:not(:last-child) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
-  @media ${device.tabletEnd} {
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 738px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1170px;
   }
 `;
 
 export const AboutImg = styled('img')`
-  width: 585px;
-  @media ${device.mobileEnd} {
+  @media screen and (max-width: 767px) {
+    min-width: 300px;
   }
-  @media ${device.tabletEnd} {
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 530px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 585px;
   }
 `;
 
 export const AboutTitle = styled('h2')`
   font-weight: 500;
-  font-size: 65px;
   line-height: calc(60 / 44);
   text-align: center;
   background-color: linear-gradient(to right, black 50%, white 50%);
@@ -36,16 +50,20 @@ export const AboutTitle = styled('h2')`
   text-transform: uppercase;
   color: #0793fa;
 
-  display: block;
-
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
 
-  @media ${device.mobileEnd} {
+  @media screen and (max-width: 767px) {
+    font-size: 50px;
   }
-  @media ${device.tabletEnd} {
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     font-size: 55px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 65px;
   }
 `;
 
@@ -62,11 +80,22 @@ export const AboutText = styled('p')`
   margin-left: auto;
   margin-right: auto;
   line-height: 1.71;
-  width: 530px;
+
   margin-top: 30px;
-  @media ${device.mobileEnd} {
+
+  @media screen and (max-width: 767px) {
+    max-width: 450px;
+    font-size: 23px;
+    padding-bottom: 30px;
+    padding-top: 10px;
   }
-  @media ${device.tabletEnd} {
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     font-size: 12px;
+    width: 530px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 530px;
   }
 `;

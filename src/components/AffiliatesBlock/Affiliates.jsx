@@ -21,7 +21,7 @@ export const Affiliates = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
-    <AffiliatesBlock>
+    <AffiliatesBlock ref={ref}>
       <AffiliatesTextContentBlock>
         <AffiliatesTitle>Affiliates</AffiliatesTitle>
         <AffiliatesLink

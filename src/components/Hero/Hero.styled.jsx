@@ -13,7 +13,6 @@ export const HeroTitle = styled('h1')`
   text-align: center;
   color: #fff;
   display: block;
-  width: 696px;
 
   font-family: 'Libre Baskerville', sans-serif;
   letter-spacing: 10px;
@@ -22,11 +21,24 @@ export const HeroTitle = styled('h1')`
   text-shadow: 2px 2px 3px black;
   margin-left: auto;
   margin-right: auto;
-  @media ${device.mobileEnd} {
+
+  @media screen and (max-width: 767px) {
+    width: 300px;
+    font-size: 20px;
   }
-  @media ${device.tabletEnd} {
+
+  @media screen and (min-width: 430px) and (max-width: 767px) {
+    width: 410px;
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding-top: 150px;
     width: 550px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 680px;
   }
 `;
 
@@ -36,9 +48,15 @@ export const HeroTitleNameOfAgency = styled('span')`
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 10px;
 
-  @media ${device.mobileEnd} {
+  @media screen and (max-width: 767px) {
+    font-size: 30px;
   }
-  @media ${device.tabletEnd} {
+
+  @media screen and (min-width: 430px) and (max-width: 767px) {
+    font-size: 50px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     font-size: 75px;
   }
 `;
@@ -114,12 +132,21 @@ export const StyledHeroLink = styled(NavLink)`
     width: 80%;
     transition: 800ms ease all;
   }
+
+  @media ${device.mobileEnd} {
+    &:first-child {
+      margin-bottom: 40px;
+    }
+  }
 `;
 
 export const PositionsBlock = styled('div')`
   display: flex;
   gap: 50px;
   margin-top: 50px;
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
 `;
 
 export const ScrollMouse = styled('div')`

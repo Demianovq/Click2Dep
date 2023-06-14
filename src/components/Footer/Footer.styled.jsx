@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from 'utils/breakpoints.styled';
 import { NavLink } from 'react-router-dom';
 
 export const FooterBlock = styled('div')`
@@ -16,6 +17,9 @@ export const FooterTitle = styled('p')`
 
   display: block;
   font-family: 'Libre Baskerville', sans-serif;
+  @media ${device.tabletEnd} {
+    display: none;
+  }
 `;
 
 export const LinkForDocs = styled('a')`
@@ -29,6 +33,10 @@ export const LinkForDocs = styled('a')`
   gap: 10px;
 
   align-items: center;
+  @media ${device.tabletEnd} {
+    font-size: 10px;
+    gap: 5px;
+  }
 `;
 
 export const SocialTitle = styled('p')`
@@ -45,6 +53,13 @@ export const SocialBlock = styled('div')`
   gap: 30px;
   margin-left: auto;
   align-items: center;
+  @media ${device.tabletEnd} {
+    text-align: center;
+  }
+  @media ${device.mobileEnd} {
+    gap: 10px;
+    margin-left: 10px;
+  }
 `;
 
 export const MailToBlock = styled('div')`
@@ -52,6 +67,10 @@ export const MailToBlock = styled('div')`
   background-color: #0793fa;
   padding: 5px 10px;
   border-radius: 20px;
+
+  @media ${device.mobileEnd} {
+    display: none;
+  }
 `;
 
 export const BlockOfDocs = styled('div')`
@@ -69,6 +88,9 @@ export const StyledBlockOfDocs = styled('div')`
   padding: 0px 10px;
 
   border-radius: 20px;
+  @media ${device.tabletEnd} {
+    padding: 0px 2px;
+  }
 `;
 
 export const TitleOfDocs = styled('p')`
@@ -79,11 +101,16 @@ export const TitleOfDocs = styled('p')`
 
   display: block;
   font-family: 'Libre Baskerville', sans-serif;
+  @media ${device.tabletEnd} {
+    font-size: 15px;
+    width: 100px;
+  }
 `;
 
 export const BtnOfDocs = styled('button')`
   border: none;
   background-color: transparent;
+  overflow: hidden;
   cursor: pointer;
   &:hover {
     scale: 1.05;

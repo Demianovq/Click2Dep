@@ -1,23 +1,29 @@
 import styled from 'styled-components';
 
-import { device } from 'utils/breakpoints.styled';
-
 export const AdvantagesTitle = styled('h2')`
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 65px;
+
   line-height: calc(60 / 44);
   text-align: center;
   text-transform: uppercase;
   color: #0793fa;
-
   display: block;
-
-  display: block;
-
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 45px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 55px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 65px;
+  }
 `;
 
 export const AdvantagesBlock = styled('div')`
@@ -25,29 +31,35 @@ export const AdvantagesBlock = styled('div')`
   display: flex;
   gap: 30px;
   padding-top: 7px;
-  width: 1170px;
+
   margin-left: auto;
   margin-right: auto;
 
-  @media ${device.mobileEnd} {
+  @media screen and (max-width: 767px) {
+    display: block;
   }
-  @media ${device.tabletEnd} {
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 768px;
     display: flex;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1170px;
   }
 `;
 
 export const AdvantagesIconsBlock = styled('div')`
   text-align: center;
   align-items: center;
-  width: 370px;
+
   background-image: radial-gradient(
     circle at -20.44% 56.16%,
     #40f2ff 0,
     #0793fa 50%,
     #003f77 100%
   );
-  border-radius: 50%;
+
   padding-bottom: 30px;
   transition: transform 0.2s;
   &:hover,
@@ -56,10 +68,22 @@ export const AdvantagesIconsBlock = styled('div')`
     box-shadow: inset 0 0 0 3px #3a7999;
   }
 
-  @media ${device.mobileEnd} {
+  @media screen and (max-width: 767px) {
+    min-width: 300px;
+    border-radius: 30px;
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
   }
-  @media ${device.tabletEnd} {
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 369px;
+    border-radius: 50%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+    border-radius: 50%;
   }
 `;
 
@@ -70,7 +94,7 @@ export const AdvantagesImg = styled('img')`
 
 export const AdvantagesItemTitle = styled('p')`
   font-weight: 700;
-  font-size: 21px;
+
   line-height: calc(60 / 44);
   text-align: center;
   color: #f0f8ff;
@@ -80,11 +104,18 @@ export const AdvantagesItemTitle = styled('p')`
   display: block;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 21px;
+  }
 `;
 
 export const AdvantagesItemText = styled('p')`
   font-weight: 500;
-  font-size: 17px;
+
   line-height: calc(60 / 44);
   text-align: center;
   color: #f0f8ff;
@@ -96,5 +127,19 @@ export const AdvantagesItemText = styled('p')`
   margin-right: auto;
   line-height: 1.71;
   margin-top: 15px;
-  width: 250px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+    width: 200px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 17px;
+    width: 250px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 17px;
+    width: 250px;
+  }
 `;

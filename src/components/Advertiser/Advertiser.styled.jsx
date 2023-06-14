@@ -8,6 +8,10 @@ export const AdvertiserBlock = styled('div')`
   gap: 15px;
   align-items: center;
   text-align: center;
+
+  @media ${device.tabletEnd} {
+    padding-bottom: 50px;
+  }
 `;
 
 export const AdvertiserTextContentBlock = styled('div')`
@@ -34,7 +38,7 @@ export const AdvertiserImg = styled('img')`
 
   height: ${windowInnerHeight - 77}px;
   @media ${device.tabletEnd} {
-    height: ${windowInnerHeight}px;
+    display: none;
   }
 `;
 

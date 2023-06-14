@@ -1,9 +1,8 @@
 import styled from 'styled-components';
-import { device } from 'utils/breakpoints.styled';
 
 export const TickerBlock = styled('div')`
   white-space: nowrap;
-  width: 800px;
+
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 100px;
@@ -19,9 +18,15 @@ export const TickerBlock = styled('div')`
   border-radius: 20px;
   overflow: hidden;
 
-  @media ${device.mobileEnd} {
+  @media screen and (max-width: 767px) {
+    max-width: 450px;
   }
-  @media ${device.tabletEnd} {
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 550px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 800px;
   }
 `;
