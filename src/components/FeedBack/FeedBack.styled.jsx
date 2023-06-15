@@ -3,17 +3,35 @@ import styled from 'styled-components';
 export const CarouselItem = styled('div')`
   width: 600px;
   display: flex;
-  justify-content: center;
+  text-align: center;
+
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  align-items: center;
+
   font-weight: 500;
   font-size: 16px;
 
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.08em;
   line-height: 1.71;
+
+  @media screen and (max-width: 767px) {
+    width: 200px;
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 430px) and (max-width: 767px) {
+    width: 320px;
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 580px;
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 `;
 
 export const CarouselBlock = styled('div')`

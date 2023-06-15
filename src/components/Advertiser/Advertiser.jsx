@@ -21,7 +21,7 @@ export const Advertiser = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
-    <AdvertiserBlock>
+    <AdvertiserBlock ref={ref}>
       <AdvertiserImg
         src={aboutRight}
         alt="About Us"
@@ -33,7 +33,7 @@ export const Advertiser = () => {
         }}
       />
       <AdvertiserTextContentBlock>
-        <AdvertiserTitle>Advertisers</AdvertiserTitle>
+        <AdvertiserTitle>Advertiser</AdvertiserTitle>
 
         <AdvertiserLink
           href="https://instagram.com/click2dep?igshid=YmMyMTA2M2Y="
@@ -88,7 +88,6 @@ export const Advertiser = () => {
             <AdvertiserItemText>Experienced affiliates</AdvertiserItemText>
           </AdvertiserItem>
           <AdvertiserItem
-            ref={ref}
             style={{
               transform: isInView ? 'none' : 'translateY(+200px)',
               opacity: isInView ? 1 : 0,

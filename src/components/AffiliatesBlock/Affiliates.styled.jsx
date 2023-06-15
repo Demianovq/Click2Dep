@@ -1,22 +1,36 @@
 import styled from 'styled-components';
-import { device } from 'utils/breakpoints.styled';
 
 const windowInnerHeight = document.documentElement.clientHeight;
 
 export const AffiliatesBlock = styled('div')`
-  display: flex;
-  gap: 15px;
   align-items: center;
   text-align: center;
-  @media ${device.tabletEnd} {
+
+  @media screen and (max-width: 767px) {
+    padding-top: 70px;
     padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 15px;
   }
 `;
 
 export const AffiliatesTextContentBlock = styled('div')`
   align-items: center;
   text-align: center;
-  padding-left: 15px;
+  @media screen and (min-width: 768px) {
+    padding-left: 15px;
+  }
 `;
 
 export const AffiliatesTitle = styled('h2')`
@@ -28,15 +42,23 @@ export const AffiliatesTitle = styled('h2')`
   text-align: center;
   color: #0793fa;
   text-transform: uppercase;
-  margin-top: 30px;
+
   margin-bottom: 40px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 50px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 30px;
+  }
 `;
 
 export const AffiliatesImg = styled('img')`
   display: block;
   margin-bottom: auto;
   height: ${windowInnerHeight - 77}px;
-  @media ${device.tabletEnd} {
+  @media screen and (max-width: 1199px) {
     display: none;
   }
 `;
@@ -86,7 +108,7 @@ export const AffiliatesText = styled('p')`
   margin-left: auto;
   margin-right: auto;
 
-  @media ${device.tabletEnd} {
+  @media screen and (max-width: 1199px) {
     font-size: 18px;
   }
 `;
@@ -96,10 +118,12 @@ export const AffiliatesList = styled('ul')`
   gap: 30px;
   margin-top: 70px;
   justify-content: center;
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
 `;
 
 export const AffiliatesItem = styled('li')`
-  width: 186px;
   text-align: center;
   background-image: radial-gradient(
     circle at -20.44% 56.16%,
@@ -108,6 +132,15 @@ export const AffiliatesItem = styled('li')`
     #003f77 100%
   );
   border-radius: 30px;
+  @media screen and (max-width: 767px) {
+    min-width: 300px;
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    width: 186px;
+  }
 `;
 
 export const AffiliatesItemSvg = styled('img')`

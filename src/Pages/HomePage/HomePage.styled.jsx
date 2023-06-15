@@ -15,6 +15,10 @@ export const AboutSection = styled('section')`
   @media screen and (max-width: 767px) {
     padding-bottom: 50px;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-bottom: 100px;
+  }
 `;
 
 export const FeedBackSection = styled('section')`
@@ -29,6 +33,10 @@ export const FeedBackSection = styled('section')`
   @media screen and (max-width: 767px) {
     padding-bottom: 50px;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-bottom: 100px;
+  }
 `;
 
 export const AdvantagesSection = styled('section')`
@@ -41,5 +49,9 @@ export const AdvantagesSection = styled('section')`
 
   @media screen and (max-width: 767px) {
     padding-bottom: 50px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-bottom: 100px;
   }
 `;

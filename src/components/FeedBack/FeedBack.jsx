@@ -41,7 +41,7 @@ export const FeedBack = () => {
           transition: 'all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s',
         }}
       >
-        <Carousel responsive={responsive} autoPlay={true} infinite={true}>
+        <Carousel responsive={responsive} infinite={true}>
           <CarouselItem>
             The team at Click2Dep is always willing to go above and beyond to
             ensure my success. They provide valuable insights and
@@ -55,15 +55,13 @@ export const FeedBack = () => {
             As an affiliate, I can confidently say that Click2Dep is one of the
             best networks out there. Here are some reasons why I love working
             with them: Click2Dep offers some of the highest payouts in the
-            industry. The support team is simply amazing. They are always
-            available to answer my questions and provide me with any assistance
-            I need. They have a wide variety of offers that are relevant to my
-            niche. The platform is easy to use, and I can easily track my
-            earnings and performance. They pay on time, every time. This is
-            something that is very important to me as an affiliate. Overall, I
-            highly recommend Click2Dep to any affiliate looking to increase
-            their earnings and work with a reputable network that values its
-            affiliates.
+            industry. The support team is simply amazing. They have a wide
+            variety of offers that are relevant to my niche. The platform is
+            easy to use, and I can easily track my earnings and performance.
+            They pay on time, every time. This is something that is very
+            important to me as an affiliate. Overall, I highly recommend
+            Click2Dep to any affiliate looking to increase their earnings and
+            work with a reputable network that values its affiliates.
           </CarouselItem>
           <CarouselItem>
             Working with Click2Dep has been a game-changer for my affiliate

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { device } from 'utils/breakpoints.styled';
 import { NavLink } from 'react-router-dom';
 
 export const FooterBlock = styled('div')`
@@ -7,6 +6,10 @@ export const FooterBlock = styled('div')`
   padding-bottom: 50px;
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 767px) {
+    padding-bottom: 30px;
+  }
 `;
 
 export const FooterTitle = styled('p')`
@@ -17,7 +20,22 @@ export const FooterTitle = styled('p')`
 
   display: block;
   font-family: 'Libre Baskerville', sans-serif;
-  @media ${device.tabletEnd} {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+`;
+
+export const FooterTitleHidden = styled('p')`
+  font-weight: 500;
+  font-size: 25px;
+  line-height: calc(60 / 44);
+
+  text-align: center;
+  padding-bottom: 20px;
+
+  display: block;
+  font-family: 'Libre Baskerville', sans-serif;
+  @media screen and (min-width: 768px) {
     display: none;
   }
 `;
@@ -33,7 +51,8 @@ export const LinkForDocs = styled('a')`
   gap: 10px;
 
   align-items: center;
-  @media ${device.tabletEnd} {
+
+  @media screen and (max-width: 1199px) {
     font-size: 10px;
     gap: 5px;
   }
@@ -53,12 +72,14 @@ export const SocialBlock = styled('div')`
   gap: 30px;
   margin-left: auto;
   align-items: center;
-  @media ${device.tabletEnd} {
-    text-align: center;
-  }
-  @media ${device.mobileEnd} {
+
+  @media screen and (max-width: 767px) {
     gap: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
   }
 `;
 
@@ -68,7 +89,7 @@ export const MailToBlock = styled('div')`
   padding: 5px 10px;
   border-radius: 20px;
 
-  @media ${device.mobileEnd} {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 `;
@@ -77,6 +98,10 @@ export const BlockOfDocs = styled('div')`
   display: flex;
   gap: 30px;
   padding-bottom: 50px;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 `;
 
 export const StyledBlockOfDocs = styled('div')`
@@ -88,7 +113,8 @@ export const StyledBlockOfDocs = styled('div')`
   padding: 0px 10px;
 
   border-radius: 20px;
-  @media ${device.tabletEnd} {
+
+  @media screen and (max-width: 1199px) {
     padding: 0px 2px;
   }
 `;
@@ -101,9 +127,15 @@ export const TitleOfDocs = styled('p')`
 
   display: block;
   font-family: 'Libre Baskerville', sans-serif;
-  @media ${device.tabletEnd} {
+
+  @media screen and (max-width: 1199px) {
     font-size: 15px;
     width: 100px;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 10px;
+    width: 80px;
   }
 `;
 

@@ -15,6 +15,7 @@ import {
   TitleOfDocs,
   HiddenBlockOfDocs,
   RightsTitle,
+  FooterTitleHidden,
 } from './Footer.styled';
 import instagram from 'images/socials/instagram.png';
 import telegram from 'images/socials/telegram.svg';
@@ -70,6 +71,7 @@ export const Footer = () => {
           </a>
         </SocialBlock>
       </FooterBlock>
+      <FooterTitleHidden>We work for Your result.</FooterTitleHidden>
       <BlockOfDocs>
         <StyledBlockOfDocs>
           <TitleOfDocs>Terms and conditions</TitleOfDocs>
