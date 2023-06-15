@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Click2Dep/static/css/main.64dc5ec0.css",
-    "main.js": "/Click2Dep/static/js/main.39d2bc80.js",
+    "main.css": "/Click2Dep/static/css/main.043d01df.css",
+    "main.js": "/Click2Dep/static/js/main.64ab3e96.js",
     "static/media/about-leftside.jpg": "/Click2Dep/static/media/about-leftside.b83c2c2c63d04048cfd6.jpg",
     "static/media/about-rightside.jpg": "/Click2Dep/static/media/about-rightside.30b936ec93980578da0f.jpg",
     "static/media/Global-BackGround-min.svg": "/Click2Dep/static/media/Global-BackGround-min.d3a1f254a96abb56a7e7b81f52f5dc92.svg",
@@ -29,11 +29,11 @@
     "static/media/linkedin.svg": "/Click2Dep/static/media/linkedin.3cd755e2ab001c51453c0a60c73efee7.svg",
     "static/media/mail.svg": "/Click2Dep/static/media/mail.0e91cc1bba3d01a96cbf26d095455adf.svg",
     "static/media/facebook.svg": "/Click2Dep/static/media/facebook.32d3bfd4b391fe4c40badb5309b0a1da.svg",
-    "main.64dc5ec0.css.map": "/Click2Dep/static/css/main.64dc5ec0.css.map",
-    "main.39d2bc80.js.map": "/Click2Dep/static/js/main.39d2bc80.js.map"
+    "main.043d01df.css.map": "/Click2Dep/static/css/main.043d01df.css.map",
+    "main.64ab3e96.js.map": "/Click2Dep/static/js/main.64ab3e96.js.map"
   },
   "entrypoints": [
-    "static/css/main.64dc5ec0.css",
-    "static/js/main.39d2bc80.js"
+    "static/css/main.043d01df.css",
+    "static/js/main.64ab3e96.js"
   ]
 }
