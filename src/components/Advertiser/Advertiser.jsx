@@ -1,7 +1,7 @@
 import antiFraud from 'images/advertisers/Anti-fraud system.svg';
 import expirianced from 'images/advertisers/Experienced affiliates.svg';
 import traffic from 'images/advertisers/Quality traffic.svg';
-import aboutRight from 'images/about-rightside.jpg';
+import advertiserImg from 'images/advertisers/advertiserimg.jpg';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import {
@@ -23,7 +23,7 @@ export const Advertiser = () => {
   return (
     <AdvertiserBlock ref={ref}>
       <AdvertiserImg
-        src={aboutRight}
+        src={advertiserImg}
         alt="About Us"
         ref={ref}
         style={{

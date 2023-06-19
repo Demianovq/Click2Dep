@@ -12,7 +12,7 @@ import {
 } from './Affiliates.styled';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import aboutLeft from 'images/about-leftside.jpg';
+import affiliatesImg from 'images/affiliates/affiliatesimg.jpg';
 import niches from 'images/affiliates/Many niches.svg';
 import trackingSystem from 'images/affiliates/User-friendly tracking system.svg';
 import offers from 'images/affiliates/Wide range of offers and GEOs.svg';
@@ -92,7 +92,7 @@ export const Affiliates = () => {
         </AffiliatesList>
       </AffiliatesTextContentBlock>
       <AffiliatesImg
-        src={aboutLeft}
+        src={affiliatesImg}
         alt="About Us"
         ref={ref}
         style={{
