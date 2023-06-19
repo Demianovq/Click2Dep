@@ -1,10 +1,7 @@
 {
   "files": {
     "main.css": "/Click2Dep/static/css/main.043d01df.css",
-    "main.js": "/Click2Dep/static/js/main.3eb4ba5b.js",
-    "static/media/about-leftside.jpg": "/Click2Dep/static/media/about-leftside.b83c2c2c63d04048cfd6.jpg",
-    "static/media/about-rightside.jpg": "/Click2Dep/static/media/about-rightside.30b936ec93980578da0f.jpg",
-    "static/media/Global-BackGround-min.svg": "/Click2Dep/static/media/Global-BackGround-min.d3a1f254a96abb56a7e7b81f52f5dc92.svg",
+    "main.js": "/Click2Dep/static/js/main.99b2b726.js",
     "static/media/About2-min.svg": "/Click2Dep/static/media/About2-min.bde28e2691efdfe18894b1bb8c43d58a.svg",
     "static/media/Wide range of offers and GEOs.svg": "/Click2Dep/static/media/Wide range of offers and GEOs.993421a59db369e300169b3a440866d7.svg",
     "static/media/User-friendly tracking system.svg": "/Click2Dep/static/media/User-friendly tracking system.b1aa1fc685d15e9e319c7a4ad0eb514f.svg",
@@ -13,6 +10,8 @@
     "static/media/Quality traffic.svg": "/Click2Dep/static/media/Quality traffic.3f3512832e6edad3b832911892335967.svg",
     "static/media/Many niches.svg": "/Click2Dep/static/media/Many niches.66a8014f289e6a60a093ed390d29da77.svg",
     "static/media/Support-min.svg": "/Click2Dep/static/media/Support-min.47a399a5ba20a20c3a880291c7e5a51d.svg",
+    "static/media/advertiserimg.jpg": "/Click2Dep/static/media/advertiserimg.363d4c0107845d245b35.jpg",
+    "static/media/affiliatesimg.jpg": "/Click2Dep/static/media/affiliatesimg.4339d89e05ef64fe1f7d.jpg",
     "static/media/Loyalty Program-min.svg": "/Click2Dep/static/media/Loyalty Program-min.d19b93c71a2265d63c4d36ec4ad16d4b.svg",
     "static/media/Minimal Hold-min.svg": "/Click2Dep/static/media/Minimal Hold-min.d4aa54a0ffeb219a9f17cc4b4548ad9c.svg",
     "static/media/Exclusive Offers-min.svg": "/Click2Dep/static/media/Exclusive Offers-min.4bcceaf4e4f732d26a6eb3a57dee6158.svg",
@@ -33,10 +32,10 @@
     "static/media/mail.svg": "/Click2Dep/static/media/mail.0e91cc1bba3d01a96cbf26d095455adf.svg",
     "static/media/facebook.svg": "/Click2Dep/static/media/facebook.32d3bfd4b391fe4c40badb5309b0a1da.svg",
     "main.043d01df.css.map": "/Click2Dep/static/css/main.043d01df.css.map",
-    "main.3eb4ba5b.js.map": "/Click2Dep/static/js/main.3eb4ba5b.js.map"
+    "main.99b2b726.js.map": "/Click2Dep/static/js/main.99b2b726.js.map"
   },
   "entrypoints": [
     "static/css/main.043d01df.css",
-    "static/js/main.3eb4ba5b.js"
+    "static/js/main.99b2b726.js"
   ]
 }
