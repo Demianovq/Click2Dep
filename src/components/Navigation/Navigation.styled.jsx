@@ -62,6 +62,7 @@ export const StyledLinkJoin = styled(NavLink)`
 export const StyledLinkLogo = styled(NavLink)`
   display: block;
   margin-top: 12px;
+  margin-left: 0px;
 `;
 
 export const NavList = styled('ul')`
@@ -78,7 +79,6 @@ export const NavList = styled('ul')`
 export const NavItem = styled('li')`
   &:first-child {
     margin-right: auto;
-    margin-left: 15px;
   }
   &:last-child {
     margin-left: auto;

@@ -4,8 +4,7 @@ import { HomePage } from 'Pages/HomePage/HomePage';
 import { AffiliatesPage } from 'Pages/AffiliatesPage/AffiliatesPage';
 import { AdvertiserPage } from 'Pages/AdvertiserPage/AdvertiserPage';
 
-import { BlogPage } from 'Pages/BlogPage';
-import { StartToWorkPage } from 'Pages/StartToWorkPage';
+import { BlogPage } from 'Pages/BlogPage/BlogPage';
 
 export const App = () => {
   return (
@@ -16,7 +15,6 @@ export const App = () => {
         <Route path="/advertiser" element={<AdvertiserPage />} />
 
         <Route path="/blog" element={<BlogPage />} />
-        <Route path="/start" element={<StartToWorkPage />} />
       </Route>
     </Routes>
   );
