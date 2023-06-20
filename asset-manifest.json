@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Click2Dep/static/css/main.043d01df.css",
-    "main.js": "/Click2Dep/static/js/main.99b2b726.js",
+    "main.css": "/Click2Dep/static/css/main.e8152806.css",
+    "main.js": "/Click2Dep/static/js/main.0551a6d8.js",
     "static/media/About2-min.svg": "/Click2Dep/static/media/About2-min.bde28e2691efdfe18894b1bb8c43d58a.svg",
     "static/media/Wide range of offers and GEOs.svg": "/Click2Dep/static/media/Wide range of offers and GEOs.993421a59db369e300169b3a440866d7.svg",
     "static/media/User-friendly tracking system.svg": "/Click2Dep/static/media/User-friendly tracking system.b1aa1fc685d15e9e319c7a4ad0eb514f.svg",
@@ -25,17 +25,18 @@
     "static/media/revicons.ttf": "/Click2Dep/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Click2Dep/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/PDFDoc.svg": "/Click2Dep/static/media/PDFDoc.69cff5f1243cfc4251535e258f50d131.svg",
+    "static/media/menu-hamburger.svg": "/Click2Dep/static/media/menu-hamburger.60fcc27d451c284349f00206d614c64b.svg",
     "static/media/arrow.svg": "/Click2Dep/static/media/arrow.43d7babaedc3096fb8a8b9a148af4410.svg",
     "index.html": "/Click2Dep/index.html",
     "static/media/telegram.svg": "/Click2Dep/static/media/telegram.194a7795f2ca9ce67ba3df939b767705.svg",
     "static/media/linkedin.svg": "/Click2Dep/static/media/linkedin.3cd755e2ab001c51453c0a60c73efee7.svg",
     "static/media/mail.svg": "/Click2Dep/static/media/mail.0e91cc1bba3d01a96cbf26d095455adf.svg",
     "static/media/facebook.svg": "/Click2Dep/static/media/facebook.32d3bfd4b391fe4c40badb5309b0a1da.svg",
-    "main.043d01df.css.map": "/Click2Dep/static/css/main.043d01df.css.map",
-    "main.99b2b726.js.map": "/Click2Dep/static/js/main.99b2b726.js.map"
+    "main.e8152806.css.map": "/Click2Dep/static/css/main.e8152806.css.map",
+    "main.0551a6d8.js.map": "/Click2Dep/static/js/main.0551a6d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.043d01df.css",
-    "static/js/main.99b2b726.js"
+    "static/css/main.e8152806.css",
+    "static/js/main.0551a6d8.js"
   ]
 }
