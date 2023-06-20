@@ -9,7 +9,7 @@ import { Ticker } from 'components/Ticker/Ticker';
 
 export const FeedBack = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref);
 
   const responsive = {
     superLargeDesktop: {

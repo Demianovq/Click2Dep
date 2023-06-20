@@ -18,7 +18,7 @@ import { useRef } from 'react';
 
 export const Advantages = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref);
   return (
     <>
       <AdvantagesTitle>Why is Click2Dep?</AdvantagesTitle>

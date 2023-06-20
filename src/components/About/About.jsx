@@ -11,11 +11,11 @@ import {
 
 export const AboutBlock = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref);
   return (
     <>
       <AboutTitle>About Us</AboutTitle>
-      <AboutStyledBlock>
+      <AboutStyledBlock ref={ref}>
         <AboutText>
           Click2Dep is a team of devoted marketing professionals who are
           passionate about delivering results. Our affection for what we do is
@@ -24,7 +24,6 @@ export const AboutBlock = () => {
           challenging of opportunities into successful ventures.
         </AboutText>
         <div
-          ref={ref}
           style={{
             transform: isInView ? 'none' : 'translateY(+200px)',
             opacity: isInView ? 1 : 0,
@@ -36,7 +35,6 @@ export const AboutBlock = () => {
       </AboutStyledBlock>
       <AboutStyledBlock>
         <div
-          ref={ref}
           style={{
             transform: isInView ? 'none' : 'translateY(-200px)',
             opacity: isInView ? 1 : 0,

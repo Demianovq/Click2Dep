@@ -9,14 +9,18 @@ export const ModalNav = styled('div')`
 `;
 
 export const SocialBlock = styled('ul')`
-  margin-left: 65px;
   display: flex;
   flex-wrap: wrap;
+  gap: 50px;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
 `;
 
-export const SocialLink = styled('a')`
-  display: block;
-  margin-top: 15px;
+export const SocialBtn = styled('button')`
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
 `;
 
 export const StyledLink = styled(NavLink)`
