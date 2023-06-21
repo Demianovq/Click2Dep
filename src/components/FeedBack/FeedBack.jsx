@@ -31,10 +31,9 @@ export const FeedBack = () => {
     },
   };
   return (
-    <>
+    <div ref={ref}>
       <CarouselTitle>Feedback from our clients</CarouselTitle>
       <CarouselBlock
-        ref={ref}
         style={{
           transform: isInView ? 'none' : 'translateY(+200px)',
           opacity: isInView ? 1 : 0,
@@ -101,6 +100,6 @@ export const FeedBack = () => {
         <StyledHeroLink to="/affiliates">Become An Affiliate</StyledHeroLink>
         <StyledHeroLink to="/advertiser">Become An Advertiser</StyledHeroLink>
       </PositionsBlock>
-    </>
+    </div>
   );
 };
