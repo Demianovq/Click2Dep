@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Click2Dep/static/css/main.e8152806.css",
-    "main.js": "/Click2Dep/static/js/main.aeb7d6d3.js",
+    "main.css": "/Click2Dep/static/css/main.0f714d1e.css",
+    "main.js": "/Click2Dep/static/js/main.2e31728c.js",
     "static/media/About2-min.svg": "/Click2Dep/static/media/About2-min.bde28e2691efdfe18894b1bb8c43d58a.svg",
     "static/media/Wide range of offers and GEOs.svg": "/Click2Dep/static/media/Wide range of offers and GEOs.993421a59db369e300169b3a440866d7.svg",
     "static/media/User-friendly tracking system.svg": "/Click2Dep/static/media/User-friendly tracking system.b1aa1fc685d15e9e319c7a4ad0eb514f.svg",
@@ -32,11 +32,11 @@
     "static/media/linkedin.svg": "/Click2Dep/static/media/linkedin.3cd755e2ab001c51453c0a60c73efee7.svg",
     "static/media/mail.svg": "/Click2Dep/static/media/mail.0e91cc1bba3d01a96cbf26d095455adf.svg",
     "static/media/facebook.svg": "/Click2Dep/static/media/facebook.32d3bfd4b391fe4c40badb5309b0a1da.svg",
-    "main.e8152806.css.map": "/Click2Dep/static/css/main.e8152806.css.map",
-    "main.aeb7d6d3.js.map": "/Click2Dep/static/js/main.aeb7d6d3.js.map"
+    "main.0f714d1e.css.map": "/Click2Dep/static/css/main.0f714d1e.css.map",
+    "main.2e31728c.js.map": "/Click2Dep/static/js/main.2e31728c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8152806.css",
-    "static/js/main.aeb7d6d3.js"
+    "static/css/main.0f714d1e.css",
+    "static/js/main.2e31728c.js"
   ]
 }
