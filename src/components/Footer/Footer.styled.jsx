@@ -54,7 +54,7 @@ export const LinkForDocs = styled('a')`
 
   @media screen and (max-width: 1199px) {
     font-size: 10px;
-    gap: 5px;
+    gap: 0px;
   }
 `;
 
@@ -65,6 +65,10 @@ export const SocialTitle = styled('p')`
 
   display: block;
   font-family: 'Libre Baskerville', sans-serif;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 21px;
+  }
 `;
 
 export const SocialBlock = styled('div')`
@@ -78,8 +82,7 @@ export const SocialBlock = styled('div')`
     margin-left: 20px;
   }
 
-  @media screen and (max-width: 1199px) {
-    text-align: center;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
   }
 `;
 
@@ -151,7 +154,10 @@ export const BtnOfDocs = styled('button')`
 
 export const HiddenBlockOfDocs = styled('div')`
   display: flex;
-  gap: 10px;
+
+  @media screen and (min-width: 1199px) {
+    gap: 10px;
+  }
 `;
 
 export const RightsTitle = styled('p')`

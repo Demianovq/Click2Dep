@@ -40,7 +40,7 @@ export const AdvantagesBlock = styled('div')`
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    width: 768px;
+    width: 738px;
     display: flex;
   }
 
@@ -77,7 +77,7 @@ export const AdvantagesIconsBlock = styled('div')`
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    width: 369px;
+    width: 354px;
     border-radius: 50%;
   }
 

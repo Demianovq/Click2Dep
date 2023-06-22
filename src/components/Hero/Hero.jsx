@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect } from 'react';
 import WAVES from 'vanta/dist/vanta.waves.min';
 import { useSpring, animated } from '@react-spring/web';
 import {
@@ -21,10 +21,20 @@ export const Hero = () => {
     toggle(true);
   }, []);
 
+  useLayoutEffect(() => {
+    const root = document.getElementsByTagName('body')[0];
+
+    const height = document.documentElement.clientHeight;
+
+    console.log(height);
+    // console.log(root);
+    root.style.setProperty('--client-height', height);
+  }, []);
+
   const [vantaEffect, setVantaEffect] = React.useState(0);
   const vantaRef = React.useRef(null);
 
-  const windowInnerHeight = document.documentElement.clientHeight;
+  // const windowInnerHeight = document.documentElement.clientHeight;
 
   React.useEffect(() => {
     if (!vantaEffect) {
@@ -34,7 +44,7 @@ export const Hero = () => {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: windowInnerHeight,
+          minHeight: 200,
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
@@ -48,7 +58,7 @@ export const Hero = () => {
     return () => {
       if (vantaEffect) vantaEffect.destroy();
     };
-  }, [vantaEffect, windowInnerHeight]);
+  }, [vantaEffect]);
   return (
     <HeroSection ref={vantaRef}>
       <HeroTitle>

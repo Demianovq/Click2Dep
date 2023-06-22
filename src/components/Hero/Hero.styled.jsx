@@ -26,6 +26,9 @@ export const HeroTitle = styled('h1')`
     width: 300px;
     font-size: 20px;
   }
+  @media screen and (max-width: 767px) and (orientation: landscape) {
+    padding-top: 100px;
+  }
 
   @media screen and (min-width: 430px) and (max-width: 767px) {
     width: 410px;
@@ -64,7 +67,12 @@ export const HeroTitleNameOfAgency = styled('span')`
 export const HeroSection = styled('section')`
   background-color: white;
   width: 100%;
-  height: ${windowInnerHeight}px;
+  /* height: var(--client-height); */
+  height: 100vh;
+
+  @media screen and (max-width: 767px) and (orientation: landscape) {
+    height: 680px;
+  }
 `;
 
 export const StyledHeroLink = styled(NavLink)`
