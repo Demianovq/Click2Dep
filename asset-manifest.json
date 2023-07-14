@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Click2Dep/static/css/main.0f714d1e.css",
-    "main.js": "/Click2Dep/static/js/main.2e31728c.js",
+    "main.css": "/Click2Dep/static/css/main.7efa19d9.css",
+    "main.js": "/Click2Dep/static/js/main.afedc0fb.js",
     "static/media/About2-min.svg": "/Click2Dep/static/media/About2-min.bde28e2691efdfe18894b1bb8c43d58a.svg",
     "static/media/Wide range of offers and GEOs.svg": "/Click2Dep/static/media/Wide range of offers and GEOs.993421a59db369e300169b3a440866d7.svg",
     "static/media/User-friendly tracking system.svg": "/Click2Dep/static/media/User-friendly tracking system.b1aa1fc685d15e9e319c7a4ad0eb514f.svg",
@@ -18,9 +18,7 @@
     "static/media/Many niches-min.svg": "/Click2Dep/static/media/Many niches-min.29e02f3af392c1db5985ade62acf0b45.svg",
     "static/media/Fast Payouts-min.svg": "/Click2Dep/static/media/Fast Payouts-min.571c50802b11053d75873a6ecf81406d.svg",
     "static/media/Experienced affiliates.svg": "/Click2Dep/static/media/Experienced affiliates.bae54492788bcae64794dd8c0b2d2312.svg",
-    "static/media/Blog1.jpg": "/Click2Dep/static/media/Blog1.91207844c3aa5b642c9f.jpg",
-    "static/media/Blog2.jpg": "/Click2Dep/static/media/Blog2.fd402ad7c05f017704eb.jpg",
-    "static/media/Blog3.jpg": "/Click2Dep/static/media/Blog3.21c37866cb26bf3c96bd.jpg",
+    "static/media/darkBlogBackGround.jpg": "/Click2Dep/static/media/darkBlogBackGround.075696c67c621f1ff4bb.jpg",
     "static/media/revicons.eot": "/Click2Dep/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Click2Dep/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Click2Dep/static/media/revicons.e8746a624ed098489406.woff",
@@ -32,11 +30,11 @@
     "static/media/linkedin.svg": "/Click2Dep/static/media/linkedin.3cd755e2ab001c51453c0a60c73efee7.svg",
     "static/media/mail.svg": "/Click2Dep/static/media/mail.0e91cc1bba3d01a96cbf26d095455adf.svg",
     "static/media/facebook.svg": "/Click2Dep/static/media/facebook.32d3bfd4b391fe4c40badb5309b0a1da.svg",
-    "main.0f714d1e.css.map": "/Click2Dep/static/css/main.0f714d1e.css.map",
-    "main.2e31728c.js.map": "/Click2Dep/static/js/main.2e31728c.js.map"
+    "main.7efa19d9.css.map": "/Click2Dep/static/css/main.7efa19d9.css.map",
+    "main.afedc0fb.js.map": "/Click2Dep/static/js/main.afedc0fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f714d1e.css",
-    "static/js/main.2e31728c.js"
+    "static/css/main.7efa19d9.css",
+    "static/js/main.afedc0fb.js"
   ]
 }
