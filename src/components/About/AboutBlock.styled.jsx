@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const AboutStyledBlock = styled('div')`
   display: flex;
+
   background-color: #0793fa;
 
   margin-left: auto;
@@ -20,9 +21,22 @@ export const AboutStyledBlock = styled('div')`
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 738px;
+    &:not(:last-child) {
+      border-top-left-radius: 50px;
+    }
+    &:last-child {
+      border-bottom-right-radius: 50px;
+    }
   }
 
   @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+      border-top-left-radius: 100px;
+    }
+    &:last-child {
+      border-bottom-right-radius: 100px;
+    }
+
     width: 1170px;
   }
 `;

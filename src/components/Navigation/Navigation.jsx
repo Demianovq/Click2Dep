@@ -40,7 +40,7 @@ export const Navigation = () => {
             <StyledLink to="/affiliates">Affiliates</StyledLink>
           </NavItem>
           <NavItem>
-            <StyledLink to="/advertiser">Advertiser</StyledLink>
+            <StyledLink to="/advertiser">Advertisers</StyledLink>
           </NavItem>
 
           <NavItem>

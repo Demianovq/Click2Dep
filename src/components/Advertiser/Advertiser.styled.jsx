@@ -18,6 +18,7 @@ export const AdvertiserBlock = styled('div')`
     display: flex;
     gap: 15px;
     padding-bottom: 50px;
+    padding-top: 30px;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -65,6 +66,8 @@ export const AdvertiserImg = styled('img')`
 `;
 
 export const AdvertiserLink = styled('a')`
+  display: inline-block;
+  margin-top: 50px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 25px;
@@ -85,7 +88,7 @@ export const AdvertiserLink = styled('a')`
     top: 0;
     left: 0;
     width: 0;
-    height: 60px;
+    height: 65px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 30px;
     transition: all 2s ease;
@@ -96,7 +99,7 @@ export const AdvertiserLink = styled('a')`
 `;
 
 export const AdvertiserText = styled('p')`
-  margin-top: 70px;
+  margin-top: 50px;
   font-weight: 500;
   font-size: 21px;
   line-height: calc(60 / 44);

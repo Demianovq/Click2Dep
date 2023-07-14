@@ -4,6 +4,8 @@ export const CarouselItem = styled('div')`
   width: 600px;
   display: flex;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 
   margin-left: auto;
   margin-right: auto;
@@ -82,4 +84,8 @@ export const CarouselTitle = styled('h3')`
   @media screen and (min-width: 1200px) {
     font-size: 65px;
   }
+`;
+
+export const CarouselName = styled('b')`
+  margin-bottom: 10px;
 `;

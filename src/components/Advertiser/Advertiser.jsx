@@ -33,14 +33,7 @@ export const Advertiser = () => {
         }}
       />
       <AdvertiserTextContentBlock>
-        <AdvertiserTitle>Advertiser</AdvertiserTitle>
-
-        <AdvertiserLink
-          href="https://instagram.com/click2dep?igshid=YmMyMTA2M2Y="
-          target="_blank"
-        >
-          Become An
-        </AdvertiserLink>
+        <AdvertiserTitle>Advertisers</AdvertiserTitle>
 
         <AdvertiserText
           ref={ref}
@@ -102,6 +95,9 @@ export const Advertiser = () => {
             <AdvertiserItemText>Quality traffic</AdvertiserItemText>
           </AdvertiserItem>
         </AdvertiserList>
+        <AdvertiserLink href="https://t.me/click2dep" target="_blank">
+          Become An Advertiser
+        </AdvertiserLink>
       </AdvertiserTextContentBlock>
     </AdvertiserBlock>
   );

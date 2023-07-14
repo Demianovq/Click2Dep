@@ -12,34 +12,6 @@ export const FooterBlock = styled('div')`
   }
 `;
 
-export const FooterTitle = styled('p')`
-  font-weight: 500;
-  font-size: 25px;
-  line-height: calc(60 / 44);
-  margin-left: 40px;
-
-  display: block;
-  font-family: 'Libre Baskerville', sans-serif;
-  @media screen and (max-width: 1199px) {
-    display: none;
-  }
-`;
-
-export const FooterTitleHidden = styled('p')`
-  font-weight: 500;
-  font-size: 25px;
-  line-height: calc(60 / 44);
-
-  text-align: center;
-  padding-bottom: 20px;
-
-  display: block;
-  font-family: 'Libre Baskerville', sans-serif;
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
-`;
-
 export const LinkForDocs = styled('a')`
   font-size: 16px;
 

@@ -3,7 +3,12 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { CarouselItem, CarouselBlock, CarouselTitle } from './FeedBack.styled';
+import {
+  CarouselItem,
+  CarouselBlock,
+  CarouselTitle,
+  CarouselName,
+} from './FeedBack.styled';
 import { PositionsBlock, StyledHeroLink } from 'components/Hero/Hero.styled';
 import { Ticker } from 'components/Ticker/Ticker';
 
@@ -42,6 +47,7 @@ export const FeedBack = () => {
       >
         <Carousel responsive={responsive} infinite={true}>
           <CarouselItem>
+            <CarouselName>Lucas, cooperation time - 1.5 years</CarouselName>
             The team at Click2Dep is always willing to go above and beyond to
             ensure my success. They provide valuable insights and
             recommendations that have helped me optimize my campaigns and
@@ -51,6 +57,7 @@ export const FeedBack = () => {
             competitive industry.
           </CarouselItem>
           <CarouselItem>
+            <CarouselName>Harper, cooperation time - 10 months</CarouselName>
             As an affiliate, I can confidently say that Click2Dep is one of the
             best networks out there. Here are some reasons why I love working
             with them: Click2Dep offers some of the highest payouts in the
@@ -63,27 +70,30 @@ export const FeedBack = () => {
             work with a reputable network that values its affiliates.
           </CarouselItem>
           <CarouselItem>
+            <CarouselName>Peter, cooperation time - 4 months</CarouselName>
             Working with Click2Dep has been a game-changer for my affiliate
             marketing efforts. Their high payouts and diverse range of offers
             make it easy to find the right fit for my audience.
           </CarouselItem>
           <CarouselItem>
-            I appreciate how easy it is to navigate the Click2Dep platform.
-            Their user-friendly dashboard and reporting tools make it simple to
-            track my earnings and optimize my campaigns. Click2Dep's support
-            team is top-notch. They are always available to help me with any
-            questions or concerns I have, which has made my experience with them
-            seamless.
+            <CarouselName>Alex, cooperation time - 1.5 years</CarouselName>I
+            appreciate how easy it is to navigate the Click2Dep platform. Their
+            user-friendly dashboard and reporting tools make it simple to track
+            my earnings and optimize my campaigns. Click2Dep's support team is
+            top-notch. They are always available to help me with any questions
+            or concerns I have, which has made my experience with them seamless.
           </CarouselItem>
           <CarouselItem>
-            I have worked with many CPA networks, but Click2Dep stands out from
-            the rest. Their professionalism, reliability, and dedication to
-            their affiliates make them one of the best in the business. I
-            appreciate the level of transparency that they provides. They are
-            open and honest about their policies, payouts, and offers, which has
-            helped me build trust with them as a partner.
+            <CarouselName>Chris, cooperation time - 1 year</CarouselName>I have
+            worked with many CPA networks, but Click2Dep stands out from the
+            rest. Their professionalism, reliability, and dedication to their
+            affiliates make them one of the best in the business. I appreciate
+            the level of transparency that they provides. They are open and
+            honest about their policies, payouts, and offers, which has helped
+            me build trust with them as a partner.
           </CarouselItem>
           <CarouselItem>
+            <CarouselName>Viktoria, cooperation time - 7 months</CarouselName>
             As an affiliate, it's important to work with a CPA network that you
             can trust. Click2Dep has exceeded my expectations in terms of
             transparency and honesty, and I feel confident in recommending them

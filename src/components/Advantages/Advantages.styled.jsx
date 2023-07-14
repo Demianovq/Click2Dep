@@ -62,11 +62,6 @@ export const AdvantagesIconsBlock = styled('div')`
 
   padding-bottom: 30px;
   transition: transform 0.2s;
-  &:hover,
-  &:focus {
-    transform: scale(1.05);
-    box-shadow: inset 0 0 0 3px #3a7999;
-  }
 
   @media screen and (max-width: 767px) {
     min-width: 300px;
@@ -78,12 +73,12 @@ export const AdvantagesIconsBlock = styled('div')`
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 354px;
-    border-radius: 50%;
+    border-radius: 30px;
   }
 
   @media screen and (min-width: 1200px) {
     width: 370px;
-    border-radius: 50%;
+    border-radius: 30px;
   }
 `;
 

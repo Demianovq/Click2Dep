@@ -24,12 +24,7 @@ export const Affiliates = () => {
     <AffiliatesBlock ref={ref}>
       <AffiliatesTextContentBlock>
         <AffiliatesTitle>Affiliates</AffiliatesTitle>
-        <AffiliatesLink
-          href="https://instagram.com/click2dep?igshid=YmMyMTA2M2Y="
-          target="_blank"
-        >
-          Become An
-        </AffiliatesLink>
+
         <AffiliatesText
           ref={ref}
           style={{
@@ -90,6 +85,9 @@ export const Affiliates = () => {
             </AffiliatesItemText>
           </AffiliatesItem>
         </AffiliatesList>
+        <AffiliatesLink href="https://t.me/click2dep" target="_blank">
+          Become An Affiliate
+        </AffiliatesLink>
       </AffiliatesTextContentBlock>
       <AffiliatesImg
         src={affiliatesImg}

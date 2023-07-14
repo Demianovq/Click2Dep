@@ -12,6 +12,7 @@ export const SocialBlock = styled('ul')`
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+
   &:not(:last-child) {
     margin-bottom: 20px;
   }

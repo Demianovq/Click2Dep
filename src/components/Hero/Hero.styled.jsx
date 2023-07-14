@@ -24,7 +24,7 @@ export const HeroTitle = styled('h1')`
 
   @media screen and (max-width: 767px) {
     width: 300px;
-    font-size: 20px;
+    font-size: 18px;
   }
   @media screen and (max-width: 767px) and (orientation: landscape) {
     padding-top: 100px;
@@ -65,7 +65,6 @@ export const HeroTitleNameOfAgency = styled('span')`
 `;
 
 export const HeroSection = styled('section')`
-  background-color: white;
   width: 100%;
   /* height: var(--client-height); */
   height: 100vh;

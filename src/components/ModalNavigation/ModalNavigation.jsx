@@ -27,6 +27,7 @@ export const ModalNavigation = () => {
   return (
     <ModalNav>
       <Menu
+        right
         isOpen={seeTheMenu}
         onStateChange={state => seeTheMenuToggle(state.isOpen)}
         customBurgerIcon={

@@ -6,7 +6,6 @@ import {
   SocialTitle,
   SocialBlock,
   MailToBlock,
-  FooterTitle,
   LinkForDocs,
   BlockOfDocs,
   BtnOfDocs,
@@ -15,7 +14,6 @@ import {
   TitleOfDocs,
   HiddenBlockOfDocs,
   RightsTitle,
-  FooterTitleHidden,
 } from './Footer.styled';
 import instagram from 'images/socials/instagram.png';
 import telegram from 'images/socials/telegram.svg';
@@ -34,11 +32,10 @@ export const Footer = () => {
         <StyledLinkLogoFooter to="/">
           <img src={logo} alt="Logo" />
         </StyledLinkLogoFooter>
-        <FooterTitle>We work for Your result.</FooterTitle>
 
         <SocialBlock>
           <MailToBlock>
-            <SocialTitle>Get In Touch</SocialTitle>
+            <SocialTitle>Follow Us</SocialTitle>
           </MailToBlock>
           <a href="https://t.me/click2dep" target="_blank" rel="noreferrer">
             <img src={telegram} alt="Telegram" width={50} />
@@ -71,7 +68,7 @@ export const Footer = () => {
           </a>
         </SocialBlock>
       </FooterBlock>
-      <FooterTitleHidden>We work for Your result.</FooterTitleHidden>
+
       <BlockOfDocs>
         <StyledBlockOfDocs>
           <TitleOfDocs>Terms and conditions</TitleOfDocs>
