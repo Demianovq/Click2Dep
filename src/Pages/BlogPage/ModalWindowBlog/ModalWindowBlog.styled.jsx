@@ -30,8 +30,9 @@ export const ModalBody = styled('div')`
 
   @media screen and (max-width: 767px) {
     width: 90%;
-    padding: 25px 17px 25px 17px;
+    padding: 25px 17px 12px 17px;
     font-size: 11px;
+    margin-bottom: 50px;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
