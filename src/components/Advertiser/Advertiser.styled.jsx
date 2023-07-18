@@ -80,7 +80,7 @@ export const AdvertiserLink = styled('a')`
   position: relative;
 
   color: #f0f8ff;
-  background: #bae498;
+  background: #addb86;
   border-radius: 30px;
   &:before {
     content: '';

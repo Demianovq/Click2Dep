@@ -95,7 +95,10 @@ export const Advertiser = () => {
             <AdvertiserItemText>Quality traffic</AdvertiserItemText>
           </AdvertiserItem>
         </AdvertiserList>
-        <AdvertiserLink href="https://t.me/click2dep" target="_blank">
+        <AdvertiserLink
+          href="https://t.me/Click2Dep_Affmanager"
+          target="_blank"
+        >
           Become An Advertiser
         </AdvertiserLink>
       </AdvertiserTextContentBlock>

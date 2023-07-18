@@ -47,7 +47,12 @@ export const Navigation = () => {
             <StyledLink to="/blog">Blog</StyledLink>
           </NavItem>
           <NavItem>
-            <StyledLinkJoin to="/start">Join Us</StyledLinkJoin>
+            <StyledLinkJoin
+              href="https://t.me/Click2Dep_Affmanager"
+              target="_blank"
+            >
+              Join Us
+            </StyledLinkJoin>
           </NavItem>
         </NavList>
       </animated.div>

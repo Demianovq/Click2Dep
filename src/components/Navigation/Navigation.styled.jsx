@@ -39,7 +39,7 @@ export const StyledLink = styled(NavLink)`
   }
 `;
 
-export const StyledLinkJoin = styled(NavLink)`
+export const StyledLinkJoin = styled('a')`
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: #0793fa;

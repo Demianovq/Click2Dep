@@ -85,7 +85,10 @@ export const Affiliates = () => {
             </AffiliatesItemText>
           </AffiliatesItem>
         </AffiliatesList>
-        <AffiliatesLink href="https://t.me/click2dep" target="_blank">
+        <AffiliatesLink
+          href="https://t.me/Click2Dep_Affmanager"
+          target="_blank"
+        >
           Become An Affiliate
         </AffiliatesLink>
       </AffiliatesTextContentBlock>
