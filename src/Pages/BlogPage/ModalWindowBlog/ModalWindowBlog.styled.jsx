@@ -29,9 +29,9 @@ export const ModalBody = styled('div')`
   color: white;
 
   @media screen and (max-width: 767px) {
-    width: 80%;
-    padding: 25px;
-    font-size: 12px;
+    width: 90%;
+    padding: 25px 17px 25px 17px;
+    font-size: 11px;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -43,7 +43,7 @@ export const ModalBody = styled('div')`
 export const ModalTitle = styled('h2')`
   margin-bottom: 15px;
   @media screen and (max-width: 767px) {
-    padding-right: 27px;
+    padding-right: 40px;
   }
 `;
 
@@ -53,7 +53,7 @@ export const ModalSubTitle = styled('p')`
 `;
 
 export const ModalParagraph = styled('div')`
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 `;
 
 export const ModalCloseBtn = styled('button')`
