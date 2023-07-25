@@ -9,12 +9,12 @@ import { BlogPage } from 'Pages/BlogPage/BlogPage';
 export const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
+      <Route element={<Layout />}>
+        <Route path="/" element={<HomePage />} />
         <Route path="/affiliates" element={<AffiliatesPage />} />
         <Route path="/advertiser" element={<AdvertiserPage />} />
-
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/*" element={<HomePage />} />
       </Route>
     </Routes>
   );
