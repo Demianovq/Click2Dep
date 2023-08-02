@@ -1,5 +1,5 @@
-import { bubble as Menu } from 'react-burger-menu';
-import { useState, useEffect } from 'react';
+import { slide as Menu } from 'react-burger-menu';
+import { useState } from 'react';
 
 import {
   ModalNav,
@@ -16,10 +16,6 @@ import facebook from 'images/socials/facebook.svg';
 
 export const ModalNavigation = () => {
   const [seeTheMenu, seeTheMenuToggle] = useState(false);
-
-  useEffect(() => {
-    console.log(seeTheMenu);
-  }, [seeTheMenu]);
 
   const handleOnClose = e => {
     seeTheMenuToggle(false);

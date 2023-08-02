@@ -6,13 +6,15 @@ const windowInnerHeight = document.documentElement.clientHeight;
 
 export const HeroTitle = styled('h1')`
   padding-top: ${windowInnerHeight / 3.5}px;
-  padding-bottom: 80px;
+
   font-weight: 900;
   font-size: 30px;
   line-height: calc(60 / 44);
   text-align: center;
   color: #fff;
   display: block;
+
+  background-size: cover;
 
   font-family: 'Libre Baskerville', sans-serif;
   letter-spacing: 10px;

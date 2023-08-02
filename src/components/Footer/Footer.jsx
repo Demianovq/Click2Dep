@@ -10,10 +10,12 @@ import {
   BlockOfDocs,
   BtnOfDocs,
   StyledLinkLogoFooter,
-  StyledBlockOfDocs,
-  TitleOfDocs,
   HiddenBlockOfDocs,
   RightsTitle,
+  DocsArrowImg,
+  PdfIconForDocs,
+  DocsList,
+  DocsItem,
 } from './Footer.styled';
 import instagram from 'images/socials/instagram.png';
 import telegram from 'images/socials/telegram.svg';
@@ -70,12 +72,11 @@ export const Footer = () => {
       </FooterBlock>
 
       <BlockOfDocs>
-        <StyledBlockOfDocs>
-          <TitleOfDocs>Terms and conditions</TitleOfDocs>
-          <BtnOfDocs type="button" onClick={() => WatchADocs(!docs)}>
-            <img src={arrow} alt="arrow for docs" width={50} />
-          </BtnOfDocs>
-        </StyledBlockOfDocs>
+        <BtnOfDocs type="button" onClick={() => WatchADocs(!docs)}>
+          Terms and conditions
+          <DocsArrowImg src={arrow} alt="arrow for docs" />
+        </BtnOfDocs>
+
         {docs ? (
           <>
             <HiddenBlockOfDocs>
@@ -84,7 +85,7 @@ export const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={pdf} alt="Document" width={30} />
+                <PdfIconForDocs src={pdf} alt="Document" />
                 Privat Policy
               </LinkForDocs>
               <LinkForDocs
@@ -92,7 +93,7 @@ export const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={pdf} alt="Document" width={30} />
+                <PdfIconForDocs src={pdf} alt="Document" />
                 Terms&Conditions for Advertisers
               </LinkForDocs>
               <LinkForDocs
@@ -100,7 +101,7 @@ export const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={pdf} alt="Document" width={30} />
+                <PdfIconForDocs src={pdf} alt="Document" />
                 Terms&Conditions for Affiliates
               </LinkForDocs>
             </HiddenBlockOfDocs>
@@ -109,6 +110,38 @@ export const Footer = () => {
           <RightsTitle>All rights reserved © 2021</RightsTitle>
         )}
       </BlockOfDocs>
+      <DocsList>
+        <DocsItem>
+          <LinkForDocs
+            href="https://drive.google.com/file/d/1ftGka7kCPtVNHEAp-aXC23tAwUx4r2U1/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <PdfIconForDocs src={pdf} alt="Document" />
+            Privat Policy
+          </LinkForDocs>
+        </DocsItem>
+        <DocsItem>
+          <LinkForDocs
+            href="https://drive.google.com/file/d/1K9suIi0RVTFk_rZVibsQKfv_wuqts-YW/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <PdfIconForDocs src={pdf} alt="Document" />
+            Terms&Conditions for Advertisers
+          </LinkForDocs>
+        </DocsItem>
+        <DocsItem>
+          <LinkForDocs
+            href="https://drive.google.com/file/d/1pdSiaOphQSnD31F_mJiUaoYtwcn-iJaT/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <PdfIconForDocs src={pdf} alt="Document" />
+            Terms&Conditions for Affiliates
+          </LinkForDocs>
+        </DocsItem>
+      </DocsList>
     </Container>
   );
 };

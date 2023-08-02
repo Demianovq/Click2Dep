@@ -1,21 +1,21 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Click2Dep",
+  "name": "Click2Dep",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo-icon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo-icon.ico",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "image/x-icon"
     },
     {
-      "src": "logo512.png",
+      "src": "logo-icon.ico",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "image/x-icon"
     }
   ],
   "start_url": ".",

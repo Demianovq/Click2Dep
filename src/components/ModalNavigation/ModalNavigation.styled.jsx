@@ -12,6 +12,7 @@ export const SocialBlock = styled('ul')`
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+  margin-left: 60px;
 
   &:not(:last-child) {
     margin-bottom: 20px;
@@ -28,6 +29,6 @@ export const StyledLink = styled(NavLink)`
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: #0793fa;
-  margin-left: 15px;
+
   font-size: 30px;
 `;
