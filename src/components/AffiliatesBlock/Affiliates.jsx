@@ -86,7 +86,7 @@ export const Affiliates = () => {
           </AffiliatesItem>
         </AffiliatesList>
         <AffiliatesLink
-          href="https://t.me/Click2Dep_Affmanager"
+          href="https://click2dep.affise.com/v2/sign/up"
           target="_blank"
         >
           Become An Affiliate

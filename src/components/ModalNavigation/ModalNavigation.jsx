@@ -50,24 +50,32 @@ export const ModalNavigation = () => {
               </a>
             </SocialBtn>
             <SocialBtn>
-              <a href="https://t.me/click2dep" target="_blank" rel="noreferrer">
-                <img src={instagram} alt="Telegram" width={50} />
-              </a>
-            </SocialBtn>
-          </SocialBlock>
-          <SocialBlock>
-            <SocialBtn>
-              <a href="https://t.me/click2dep" target="_blank" rel="noreferrer">
-                <img src={linkedin} alt="Telegram" width={50} />
-              </a>
-            </SocialBtn>
-            <SocialBtn>
               <a
                 href="https://instagram.com/click2dep?igshid=YmMyMTA2M2Y="
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={facebook} alt="instagram" width={50} />
+                <img src={instagram} alt="instagram" width={50} />
+              </a>
+            </SocialBtn>
+          </SocialBlock>
+          <SocialBlock>
+            <SocialBtn>
+              <a
+                href="https://www.linkedin.com/company/92789773"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={linkedin} alt="linkedin" width={50} />
+              </a>
+            </SocialBtn>
+            <SocialBtn>
+              <a
+                href="https://www.facebook.com/Click2Dep "
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={facebook} alt="facebook" width={50} />
               </a>
             </SocialBtn>
           </SocialBlock>

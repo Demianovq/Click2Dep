@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import { useInView } from 'framer-motion';
 
 import { ModalWindowBlog } from './ModalWindowBlog/ModalWindowBlog';
 import { ModalNavBlock, StyledLinkLogo } from 'utils/ModalNavMobTab.styled';
@@ -16,12 +17,9 @@ import logo from 'images/logo.png';
 import dataBlogs from './blogsdata';
 
 export const BlogPage = () => {
-  // const refFirst = useRef(null);
-  // const refSecond = useRef(null);
-  // const refThird = useRef(null);
-  // const isInViewFirst = useInView(refFirst);
-  // const isInViewSecond = useInView(refSecond);
-  // const isInViewThird = useInView(refThird);
+  const ref = useRef(null);
+
+  const isInView = useInView(ref);
 
   const [modal, setModal] = useState({
     open: false,
@@ -37,13 +35,18 @@ export const BlogPage = () => {
       </ModalNavBlock>
       <Container>
         <BlogTitle>Our Blog</BlogTitle>
-        <BlogList>
+        <BlogList ref={ref}>
           {dataBlogs.map((el, idx) => (
             <BlogListItem
               key={idx}
               onClick={e => {
                 e.stopPropagation();
                 setModal({ open: true, data: el });
+              }}
+              style={{
+                transform: isInView ? 'none' : 'translateY(+200px)',
+                opacity: isInView ? 1 : 0,
+                transition: 'all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s',
               }}
             >
               <BlogListItemTitle>{el.title}</BlogListItemTitle>

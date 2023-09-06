@@ -62,6 +62,10 @@ export const BlogListItem = styled('li')`
   background-color: #151515;
   border-radius: 50px;
   padding-bottom: 20px;
+  &:hover,
+  &:focus {
+    scale: calc(1.05);
+  }
   @media screen and (min-width: 768px) {
     width: 376px;
   }
